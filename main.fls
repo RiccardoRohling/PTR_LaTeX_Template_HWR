@@ -1,6 +1,6 @@
-PWD c:\Users\gokkc\OneDrive - Bayer\PCT\SA\Studienarbeit
+PWD c:\Users\gokkc\OneDrive - Bayer\Ausbildung\PTR_LaTeX_Template_HWR
 INPUT C:\Users\gokkc\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\gokkc\OneDrive - Bayer\PCT\SA\Studienarbeit\main.tex
+INPUT c:\Users\gokkc\OneDrive - Bayer\Ausbildung\PTR_LaTeX_Template_HWR\main.tex
 OUTPUT main.log
 INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
@@ -423,22 +423,6 @@ OUTPUT main.lot
 INPUT .\02_maintext.tex
 INPUT .\02_maintext.tex
 INPUT 02_maintext.tex
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT .\images\BI_Reports.png
-INPUT .\images\BI_Reports.png
-INPUT .\images\BI_Reports.png
-INPUT .\images\BI_Reports.png
-INPUT .\images\BI_Reports.png
-INPUT .\images\BI_Reports.png
-INPUT .\images\BI_Reports.png
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\04_appendix.tex
 INPUT .\04_appendix.tex
 INPUT 04_appendix.tex
@@ -448,13 +432,6 @@ INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.
 INPUT .\05_statementofacademicintegrity.tex
 INPUT .\05_statementofacademicintegrity.tex
 INPUT 05_statementofacademicintegrity.tex
-INPUT .\images\Rohling_Unterschrift.png
-INPUT .\images\Rohling_Unterschrift.png
-INPUT .\images\Rohling_Unterschrift.png
-INPUT .\images\Rohling_Unterschrift.png
-INPUT .\images\Rohling_Unterschrift.png
-INPUT .\images\Rohling_Unterschrift.png
-INPUT .\images\Rohling_Unterschrift.png
 INPUT main.aux
 INPUT .\hyphenation.aux
 INPUT .\hyphenation.aux
@@ -465,5 +442,3 @@ INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.
 INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
-INPUT C:\Users\gokkc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

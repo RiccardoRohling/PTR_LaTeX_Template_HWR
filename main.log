@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.28)  28 JUL 2025 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.28)  28 JUL 2025 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/gokkc/OneDrive - Bayer/PCT/SA/Studienarbeit/main.tex"
-(c:/Users/gokkc/OneDrive - Bayer/PCT/SA/Studienarbeit/main.tex
+**"c:/Users/gokkc/OneDrive - Bayer/Ausbildung/PTR_LaTeX_Template_HWR/main.tex"
+(c:/Users/gokkc/OneDrive - Bayer/Ausbildung/PTR_LaTeX_Template_HWR/main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
 (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbook.cls
@@ -1090,14 +1090,14 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 243.
+(scrbook)           before \begin{document} on input line 246.
  (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count522
 ))
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 243.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 246.
  (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -1105,51 +1105,49 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 LaTeX Warning: Unused global option(s):
     [headseplie].
 
-(main.aux (hyphenation.aux)
-\g__glossaries_gls_ref_acronym_int=\count523
-)
+(main.aux (hyphenation.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 243.
-LaTeX Font Info:    ... okay on input line 243.
-Package scrbase Info: activating english \partname on input line 243.
-Package scrbase Info: activating english \chaptername on input line 243.
-Package scrbase Info: activating english \appendixname on input line 243.
-Package scrbase Info: activating english \figurename on input line 243.
-Package scrbase Info: activating english \tablename on input line 243.
-Package scrbase Info: activating english \contentsname on input line 243.
-Package scrbase Info: activating english \listfigurename on input line 243.
-Package scrbase Info: activating english \listtablename on input line 243.
-Package scrbase Info: activating english \bibname on input line 243.
-Package scrbase Info: activating english \indexname on input line 243.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+Package scrbase Info: activating english \partname on input line 246.
+Package scrbase Info: activating english \chaptername on input line 246.
+Package scrbase Info: activating english \appendixname on input line 246.
+Package scrbase Info: activating english \figurename on input line 246.
+Package scrbase Info: activating english \tablename on input line 246.
+Package scrbase Info: activating english \contentsname on input line 246.
+Package scrbase Info: activating english \listfigurename on input line 246.
+Package scrbase Info: activating english \listtablename on input line 246.
+Package scrbase Info: activating english \bibname on input line 246.
+Package scrbase Info: activating english \indexname on input line 246.
  (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count524
+\scratchcounter=\count523
 \scratchdimen=\dimen286
 \scratchbox=\box75
-\nofMPsegments=\count525
-\nofMParguments=\count526
+\nofMPsegments=\count524
+\nofMParguments=\count525
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count527
+\MPscratchCnt=\count526
 \MPscratchDim=\dimen287
-\MPnumerator=\count528
-\makeMPintoPDFobject=\count529
+\MPnumerator=\count527
+\makeMPintoPDFobject=\count528
 \everyMPtoPDFconversion=\toks47
 ) (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1224,18 +1222,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 243.
-Package biblatex Info: Reference segment=0 on input line 243.
-Package hyperref Info: Link coloring ON on input line 243.
+Package biblatex Info: Reference section=0 on input line 246.
+Package biblatex Info: Reference segment=0 on input line 246.
+Package hyperref Info: Link coloring ON on input line 246.
  (C:\Users\gokkc\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
-\c@lstlisting=\count530
-Package tocbasic Info: setting babel extension for `lol' on input line 243.
+\c@lstlisting=\count529
+Package tocbasic Info: setting babel extension for `lol' on input line 246.
 \scr@dte@lstlisting@maxnumwidth=\skip157
 \openout2 = `./hyphenation.aux'.
 
- (hyphenation.tex) (00_statement_of_confidentiality.tex)
+ (hyphenation.tex) (00_statement_of_confidentiality.tex
+Overfull \hbox (14.2066pt too wide) in paragraph at lines 26--30
+\T1/ptm/m/n/12 this State-ment of Con-fi-den-tial-ity is pro-vided in dig-i-tal form un-der on SAM. 
+ []
+
+)
 
 [1
 
@@ -1279,13 +1282,6 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 5.
 Package tocbasic Info: Using my definition of `\numberline' on input line 6.
 Package tocbasic Info: Using my definition of `\numberline' on input line 7.
 Package tocbasic Info: Using my definition of `\numberline' on input line 8.
-Package tocbasic Info: Using my definition of `\numberline' on input line 9.
-Package tocbasic Info: Using my definition of `\numberline' on input line 10.
-Package tocbasic Info: Using my definition of `\numberline' on input line 11.
-Package tocbasic Info: Using my definition of `\numberline' on input line 12.
-Package tocbasic Info: Using my definition of `\numberline' on input line 13.
-Package tocbasic Info: Using my definition of `\numberline' on input line 14.
-Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1294,95 +1290,45 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 
 [2]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 275.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 278.
 
 
-Package glossaries Info: Preparing to sort glossary `acronym' (total number of
-(glossaries)             referenced entries: 6)
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 278.
 
 
 
-[3]
-
-[4
-
-
-] (main.lof)
+[3] (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
 
 
-[5] (main.lot)
+[4] (main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
 
 
-[6] (02_maintext.tex
-<images/BI_Reports.png, id=77, 496.473pt x 228.417pt>
-File: images/BI_Reports.png Graphic file (type png)
-<use images/BI_Reports.png>
-Package pdftex.def Info: images/BI_Reports.png  used on input line 55.
-(pdftex.def)             Requested size: 355.65944pt x 163.63058pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (0.48882pt too wide) in paragraph at lines 63--85
-[]\T1/ptm/m/n/12 It con-tin-ues to evolve as a strate-gic as-set, of-fer-ing di-verse types of re-ports that en-hance decision-
- []
-
-
+[5] (02_maintext.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 
-      [1
+l.311 \newpage
+               [1
 
 ]
 
-[2 <./images/BI_Reports.png>]
-
-[3]
-Overfull \hbox (43.83437pt too wide) in paragraph at lines 220--234
-\T1/ptm/m/n/12 path of or-ga-ni-za-tions by fa-cil-i-tat-ing re-source man-age-ment and strate-gic plan-ning. 
- []
+LaTeX Warning: Empty bibliography on input line 315.
 
 
 
-[4]
+[2] (04_appendix.tex)
 
-[5])
+[3] (05_statementofacademicintegrity.tex)
 
-[6]
-
-[7]
-Overfull \hbox (0.2182pt too wide) in paragraph at lines 312--312
-\T1/ptm/m/n/12 Pow-er-ing Sales In-sights: A Com-par-a-tive Anal-y-sis of Data Vi-su-al-iza-tion Tools, Mi-crosoft Power
- []
-
-
-Overfull \hbox (4.76613pt too wide) in paragraph at lines 312--312
-\T1/ptm/m/n/12 Bangkok, Thai-land: IEEE, pp.1042^^U1047. Avail-able from: [][]$https : / / doi . org / 10 . 1109 / ICBIR61386 .
- []
-
-
-
-[8] (04_appendix.tex)
-
-[9] (05_statementofacademicintegrity.tex
-<images/Rohling_Unterschrift.png, id=192, 399.74344pt x 189.70876pt>
-File: images/Rohling_Unterschrift.png Graphic file (type png)
-<use images/Rohling_Unterschrift.png>
-Package pdftex.def Info: images/Rohling_Unterschrift.png  used on input line 21.
-(pdftex.def)             Requested size: 85.35826pt x 40.50868pt.
-)
-
-[10 <./images/Rohling_Unterschrift.png>] (main.aux (hyphenation.aux))
+[4] (main.aux (hyphenation.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1392,17 +1338,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37098 strings out of 468149
- 716207 string characters out of 5431082
- 1915693 words of memory out of 5000000
- 65176 multiletter control sequences out of 15000+600000
- 667027 words of font info for 90 fonts, out of 8000000 for 9000
+ 36645 strings out of 468149
+ 704434 string characters out of 5431082
+ 1903867 words of memory out of 5000000
+ 64768 multiletter control sequences out of 15000+600000
+ 658735 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 108i,11n,107p,10978b,2569s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gokkc/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gokkc/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gokkc/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 230427 bytes).
+ 108i,11n,107p,10991b,2569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gokkc/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gokkc/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (10 pages, 45493 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
