@@ -1,0 +1,2011 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{beardTableauVersion202032021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ebc5681a78656ffde72fa6ee63f34f92}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={Lynly},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e1e05bd63b13b8ae6e6f45e32e9b40c}{%
+           family={Aghassibake},
+           familyi={A\bibinitperiod},
+           given={Negeen},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{fullhash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{fullhashraw}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{bibnamehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authorbibnamehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authornamehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authorfullhash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authorfullhashraw}{3a84f14d14995253ceee3ae3293645a5}
+      \field{labelalpha}{BeardAghassibake2021}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This review analyzes the new features in Tableau and how it can be used both by librarians and the patrons they serve.}
+      \field{day}{7}
+      \field{issn}{1558-9439, 1536-5050}
+      \field{journaltitle}{Journal of the Medical Library Association}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{jmla}
+      \field{title}{Tableau (Version 2020.3)}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{109}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5195/jmla.2021.1135
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\SKG7HF4W\Beard and Aghassibake - 2021 - Tableau (version 2020.3).pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://jmla.pitt.edu/ojs/jmla/article/view/1135
+      \endverb
+      \verb{url}
+      \verb http://jmla.pitt.edu/ojs/jmla/article/view/1135
+      \endverb
+    \endentry
+    \entry{belghithDataVisualizationIndustry2023}{incollection}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4038ba81bfa12ec14875447827aa5ffe}{%
+           family={Belghith},
+           familyi={B\bibinitperiod},
+           given={Mariem},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55a40dc6590dd2f2c02e240c724dda03}{%
+           family={Ben\bibnamedelima Ammar},
+           familyi={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Hanen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fed0127982d745cab563ab0a89dac23}{%
+           family={Masmoudi},
+           familyi={M\bibinitperiod},
+           given={Faouzi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1d0e5ae806e868f1e054f0c99e63907}{%
+           family={Elloumi},
+           familyi={E\bibinitperiod},
+           given={Abdelkarim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{9}{}{%
+        {{hash=62452c077be54ea459fd6d6da6f8b580}{%
+           family={Walha},
+           familyi={W\bibinitperiod},
+           given={Lassaad},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b4c9ca98f13c9ae0cf957007ac217f51}{%
+           family={Jarraya},
+           familyi={J\bibinitperiod},
+           given={Abdessalem},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5b7357e527c67cf27c94eb7c56fc606}{%
+           family={Djemal},
+           familyi={D\bibinitperiod},
+           given={Fathi},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f4d342a7c0b5a2711f7d32c92becf9ea}{%
+           family={Chouchane},
+           familyi={C\bibinitperiod},
+           given={Mnaouar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=860f22149de4e847c32011fce29a9d0a}{%
+           family={Aifaoui},
+           familyi={A\bibinitperiod},
+           given={Nizar},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0462611438cf4464ee93bd6f80fa9596}{%
+           family={Chaari},
+           familyi={C\bibinitperiod},
+           given={Fakher},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a5a252fee4d09961912b8b77adb83b42}{%
+           family={Abdennadher},
+           familyi={A\bibinitperiod},
+           given={Moez},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e76f60726ed7d645093e7be48f05884}{%
+           family={Benamara},
+           familyi={B\bibinitperiod},
+           given={Abdelmajid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3dc1bd8310c5fa991b20b6868b6b567a}{%
+           family={Haddar},
+           familyi={H\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{59ef36130064e30e9c9108a7aa662f7f}
+      \strng{fullhash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{fullhashraw}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{bibnamehash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{authorbibnamehash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{authornamehash}{59ef36130064e30e9c9108a7aa662f7f}
+      \strng{authorfullhash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{authorfullhashraw}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{editorbibnamehash}{fc61db620b6bef8c62e7d57b38d7f7ca}
+      \strng{editornamehash}{1a5576b2614d609c02e0b8f9df95ef4c}
+      \strng{editorfullhash}{fc61db620b6bef8c62e7d57b38d7f7ca}
+      \strng{editorfullhashraw}{fc61db620b6bef8c62e7d57b38d7f7ca}
+      \field{labelalpha}{Belghith+2023}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Design and {{Modeling}} of {{Mechanical Systems}} - {{V}}}
+      \field{isbn}{978-3-031-14614-5 978-3-031-14615-2}
+      \field{langid}{english}
+      \field{shorttitle}{Data {{Visualization}} for {{Industry}} 4.0}
+      \field{title}{Data {{Visualization}} for {{Industry}} 4.0: {{Developing Dashboards}} with {{Power BI}} – {{A Case Study}} in a {{Pharmaceutical Company}}}
+      \field{urlday}{24}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{402\bibrangedash 408}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/978-3-031-14615-2_45
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\MGXR6NNW\Belghith et al. - 2023 - Data Visualization for Industry 4.0 Developing Dashboards with Power BI – A Case Study in a Pharmac.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-031-14615-2_45
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-031-14615-2_45
+      \endverb
+    \endentry
+    \entry{bussaEnhancingBITools2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66fbba6de2ec4065163163ccfc81e569}{%
+           family={Bussa},
+           familyi={B\bibinitperiod},
+           given={Santhosh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{fullhash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{fullhashraw}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{bibnamehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authorbibnamehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authornamehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authorfullhash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authorfullhashraw}{66fbba6de2ec4065163163ccfc81e569}
+      \field{labelalpha}{Bussa2023}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data-driven decision-making and actionable insights are now among the supporting tools of any organization, Business Intelligence (BI). The paper attempts to describe the evolvement process of BI tools, spotlighting the supportive role played by visualization. The existing challenges identified with visualization comprise integration, real-time processing, and accessibility by users. Innovative ideas in this paper have been demonstrated using AI-driven insights, Predictive analytics and customized dashboards involving analytic work that outlines the role of emerging technologies such as cloud computing, 5G and blockchain. In this respect, through a well-structured framework comprising suitable methodologies we envision BI tools strategies that would yield accurate and scalable yet user-friendly visualizations. Future trends as well as ethical considerations are taken to ensure the sustainable growth of business systems.}
+      \field{day}{27}
+      \field{issn}{2320088X}
+      \field{journaltitle}{International Journal of Computer Science and Mobile Computing}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{IJCSMC}
+      \field{title}{Enhancing {{BI Tools}} for {{Improved Data Visualization}} and {{Insights}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{70\bibrangedash 92}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.47760/ijcsmc.2023.v12i02.005
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\RLZAKPB2\Bussa - 2023 - Enhancing BI Tools for Improved Data Visualization and Insights.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ijcsmc.com/docs/papers/February2023/V12I2202307.pdf
+      \endverb
+      \verb{url}
+      \verb https://ijcsmc.com/docs/papers/February2023/V12I2202307.pdf
+      \endverb
+    \endentry
+    \entry{dalbahInteractiveDashboardPredicting2022}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2d7abc1fde1267d07f732f4fdbb9a586}{%
+           family={Dalbah},
+           familyi={D\bibinitperiod},
+           given={Lamees\bibnamedelima Mohammad},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17a8ab034841a5f4da4ff66a60af34c9}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Sharaz},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3356b5f8fb14ed9f8fa93b94e9c1fbf}{%
+           family={Al-Naymat},
+           familyi={A\bibinithyphendelim N\bibinitperiod},
+           given={Ghazi},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Karak, Jordan}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{fullhash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{fullhashraw}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{bibnamehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authorbibnamehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authornamehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authorfullhash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authorfullhashraw}{072802f6fc0e77bf5b09c8df8090d16c}
+      \field{labelalpha}{DalbahAliAl-Naymat2022}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 {{International Conference}} on {{Emerging Trends}} in {{Computing}} and {{Engineering Applications}} ({{ETCEA}})}
+      \field{eventtitle}{2022 {{International Conference}} on {{Emerging Trends}} in {{Computing}} and {{Engineering Applications}} ({{ETCEA}})}
+      \field{isbn}{978-1-6654-7709-3}
+      \field{month}{11}
+      \field{title}{An {{Interactive Dashboard}} for {{Predicting Bank Customer Attrition}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ETCEA57049.2022.10009818
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\YXKT2XGM\Dalbah et al. - 2022 - An Interactive Dashboard for Predicting Bank Customer Attrition.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10009818/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10009818/
+      \endverb
+    \endentry
+    \entry{gurcanBusinessIntelligenceStrategies2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f14fc11bbe2cc4341ccdf736152f1b07}{%
+           family={Gurcan},
+           familyi={G\bibinitperiod},
+           given={Fatih},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5955572fe9e7fe4eadc200226a9455cd}{%
+           family={Ayaz},
+           familyi={A\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87891958c90db31b776b6618f7c0db1b}{%
+           family={Menekse\bibnamedelima Dalveren},
+           familyi={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Gonca\bibnamedelima Gokce},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cceac6401908bce83624f6c3f6832a5}{%
+           family={Derawi},
+           familyi={D\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bab672f44aa7405757a22a4f377c0290}
+      \strng{fullhash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{fullhashraw}{313ca5a033399b6b1f08a02168c10173}
+      \strng{bibnamehash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{authorbibnamehash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{authornamehash}{bab672f44aa7405757a22a4f377c0290}
+      \strng{authorfullhash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{authorfullhashraw}{313ca5a033399b6b1f08a02168c10173}
+      \field{labelalpha}{Gurcan+2023}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The widespread use of business intelligence products, services, and applications piques the interest of researchers in this field. The interest of researchers in business intelligence increases the number of studies significantly. Identifying domain-specific research patterns and trends is thus a significant research problem. This study employs a topic modeling approach to analyze domain-specific articles in order to identify research patterns and trends in the business intelligence field over the last 20 years. As a result, 36 topics were discovered that reflect the field’s research landscape and trends. Topics such as “Organizational Capability”, “AI Applications”, “Data Mining”, “Big Data Analytics”, and “Visualization” have recently gained popularity. A systematic taxonomic map was also created, revealing the research background and BI perspectives based on the topics. This study may be useful to researchers and practitioners interested in learning about the most recent developments in the field. Topics generated by topic modeling can also be used to identify gaps in current research or potential future research directions.}
+      \field{day}{21}
+      \field{issn}{2071-1050}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{13}
+      \field{shortjournal}{Sustainability}
+      \field{shorttitle}{Business {{Intelligence Strategies}}, {{Best Practices}}, and {{Latest Trends}}}
+      \field{title}{Business {{Intelligence Strategies}}, {{Best Practices}}, and {{Latest Trends}}: {{Analysis}} of {{Scientometric Data}} from 2003 to 2023 {{Using Machine Learning}}}
+      \field{urlday}{23}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.3390/su15139854
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\BJRKXJUY\Gurcan et al. - 2023 - Business Intelligence Strategies, Best Practices, and Latest Trends Analysis of Scientometric Data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/15/13/9854
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/15/13/9854
+      \endverb
+    \endentry
+    \entry{hamzehiBusinessIntelligenceUsing2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1018f2276529f557176a6cf950680223}{%
+           family={Hamzehi},
+           familyi={H\bibinitperiod},
+           given={Morteza},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9f7ebdf8a2d5442801dd45c5d0654e8}{%
+           family={Hosseini},
+           familyi={H\bibinitperiod},
+           given={Soodeh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{fullhash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{fullhashraw}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{bibnamehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authorbibnamehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authornamehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authorfullhash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authorfullhashraw}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \field{labelalpha}{HamzehiHosseini2022}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1380-7501, 1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Multimed Tools Appl}
+      \field{title}{Business Intelligence Using Machine Learning Algorithms}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{81}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{33233\bibrangedash 33251}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s11042-022-13132-3
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\U2M5MBFQ\Hamzehi and Hosseini - 2022 - Business intelligence using machine learning algorithms.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s11042-022-13132-3
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s11042-022-13132-3
+      \endverb
+    \endentry
+    \entry{hanumanthaiahAdvancementsDataVisualization2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=21d68348561cfc4233914c617444b794}{%
+           family={Hanumanthaiah},
+           familyi={H\bibinitperiod},
+           given={Suhas},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21d68348561cfc4233914c617444b794}
+      \strng{fullhash}{21d68348561cfc4233914c617444b794}
+      \strng{fullhashraw}{21d68348561cfc4233914c617444b794}
+      \strng{bibnamehash}{21d68348561cfc4233914c617444b794}
+      \strng{authorbibnamehash}{21d68348561cfc4233914c617444b794}
+      \strng{authornamehash}{21d68348561cfc4233914c617444b794}
+      \strng{authorfullhash}{21d68348561cfc4233914c617444b794}
+      \strng{authorfullhashraw}{21d68348561cfc4233914c617444b794}
+      \field{labelalpha}{Hanumanthaiah2025}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper explores the recent advancements in data visualization, highlighting innovative tools, techniques, and applications that enhance the understanding of complex datasets. As data continues to grow in volume and complexity, traditional visualization methods are becoming inadequate, necessitating the development of more sophisticated approaches. The review begins by examining comprehensive visualization platforms like iFeatureOmega, which integrates feature engineering, visualization, and analysis for molecular data [1]. Web-based platforms such as the euPOLIS Visualization Platform (eVP) are also discussed, showcasing their ability to monitor the spatiotemporal impact of nature-based solutions in urban environments [2].The paper further investigates interactive and immersive visualization techniques, including three-dimensional representations and virtual/augmented reality applications, which offer heightened immersion and facilitate collaborative data exploration [3]. Domain-specific applications in healthcare, environmental monitoring, and business intelligence are analyzed to demonstrate the practical benefits of advanced visualization tools. The integration of artificial intelligence (AI) and machine learning (ML) is identified as a key technological enabler, enhancing analytical capabilities and pattern recognition [4]. Blockchain and Internet of Things (IoT) technologies are also explored for their roles in ensuring transparency and enabling real-time data visualization in various sectors [5] , [6]. User-centered design approaches and evaluation methods are emphasized to ensure the effectiveness and usability of visualization systems. Finally, the review addresses existing limitations and challenges, proposing future research directions such as privacy-preserving visualization techniques and further integration of AI and ML to improve data analysis and communication.}
+      \field{day}{31}
+      \field{issn}{2582-8010}
+      \field{journaltitle}{International Journal of Leading Research Publication}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{IJLRP}
+      \field{shorttitle}{Advancements in {{Data Visualization}}}
+      \field{title}{Advancements in {{Data Visualization}}: {{A Comprehensive Literature Review}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.70528/IJLRP.v6.i5.1577
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\WQLHLIMI\Hanumanthaiah - 2025 - Advancements in Data Visualization A Comprehensive Literature Review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ijlrp.com/research-paper.php?id=1577
+      \endverb
+      \verb{url}
+      \verb https://www.ijlrp.com/research-paper.php?id=1577
+      \endverb
+    \endentry
+    \entry{jourdanBusinessIntelligenceAnalysis2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d38b4d3ddd5ac3bcd6cf705379691ffb}{%
+           family={Jourdan},
+           familyi={J\bibinitperiod},
+           given={Zack},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b056f70dd20b21ae1047e1da437209d}{%
+           family={Rainer},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi Kelly},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25bfad3e29f861ba087d2dd1df5bc5e0}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{fullhash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{fullhashraw}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{bibnamehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authorbibnamehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authornamehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authorfullhash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authorfullhashraw}{f2d0a27bdb691f48e692183b94b352b0}
+      \field{labelalpha}{JourdanRainerMarshall2008}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
+      \field{issn}{1058-0530, 1934-8703}
+      \field{journaltitle}{Information Systems Management}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{Information Systems Management}
+      \field{shorttitle}{Business {{Intelligence}}}
+      \field{title}{Business {{Intelligence}}: {{An Analysis}} of the {{Literature}}{\textsuperscript{1}}}
+      \field{urlday}{24}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{25}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{121\bibrangedash 131}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/10580530801941512
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\JI9QZTKY\Jourdan et al. - 2008 - Business Intelligence An Analysis of the Literature1.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10580530801941512
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10580530801941512
+      \endverb
+    \endentry
+    \entry{kattaLeveragingPowerBI2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ee94c63287ceb2d1425545290c89ccd}{%
+           family={Katta},
+           familyi={K\bibinitperiod},
+           given={Srikanth\bibnamedelima Reddy},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{fullhash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{fullhashraw}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{bibnamehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authorbibnamehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authornamehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authorfullhash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authorfullhashraw}{2ee94c63287ceb2d1425545290c89ccd}
+      \field{labelalpha}{Katta2025}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The pharmaceutical industry thus has many pieces of equipment that are very critical and very sensitive to breakdowns, and these are used in almost all the steps of production and are very crucial in ensuring that they meet the set regulatory requirements as well as achieve the best quality in production. Most of the maintenance undertakings are carried out following the ‘break and fix’ or ‘run and correct’ method, which results in poor performance, unanticipated machine failure, and high costs. The use of business intelligence tools such as Power BI is a revolution in the business fraternity as it enhances the ability to monitor data in real time, implement real-life maintenance, and result in the formulation of data-based decisions. General maintenance data from various sources, including mechanical or electrical equipment sensors, ERP systems, or maintenance logs, is integrated into Power BI platforms and provides detailed insights into KPIs that cover operational readability and failure anticipation and schedules for the maintenance department. With the help of Power BI and its sophisticated capabilities for data analysis and artificial intelligence, the pharmaceutical industry can easily change from a periodical maintenance regimen to a prescriptive and predictive one – thus improving machinery performance and reducing the chances of overall production failures. The framework suggested in this research leverages Power BI’s functionality to enhance the management of maintenance through the consolidation of various data sets and storage of the data in a single location. The infrastructure allows the real-time monitoring of equipment health status reporting and improves or even provides decision-making with the use of trend analysis and analytics. By using Power BI, maintenance teams in the pharmaceutical industry are able to determine failure trends and usage frequency of the pieces of equipment. Consequently, they are able to determine where to channel their efforts and minimize costs. Findings shown in the case of this study, therefore, show a considerable improvement in equipment availability or use and costs of maintenance, affirming the benefits that could be obtained from the BI-driven approach. Also, due to the specific focus on the field of pharmaceuticals, the impact of Power BI in compliance reporting and audit purposes of maintenance operations is investigated. Thus, through the implementation of this technology, pharmaceutical organizations will be able to optimize their performance and even gain a competitive advantage of running uninterrupted, high-quality production lines}
+      \field{issn}{23473002}
+      \field{journaltitle}{Journal of Research in Business and Management}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Quest Journals}
+      \field{title}{Leveraging {{Power BI}} for {{Data-Driven Decision-Making}} in {{Pharma Maintenance Operations}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 70}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.35629/3002-13026170
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\S3J7DW5M\Katta - 2025 - Leveraging Power BI for Data-Driven Decision-Making in Pharma Maintenance Operations.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.questjournals.org/jrbm/papers/vol13-issue2/13026170.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.questjournals.org/jrbm/papers/vol13-issue2/13026170.pdf
+      \endverb
+    \endentry
+    \entry{khatuwalBusinessIntelligenceTools2022}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bcbe3b3a97f13b11eb9d45821bf1cbde}{%
+           family={Khatuwal},
+           familyi={K\bibinitperiod},
+           given={Vishnu\bibnamedelima Singh},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1179c0f52220b02d5bda7fc02c05c53}{%
+           family={Puri},
+           familyi={P\bibinitperiod},
+           given={Digvijay},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{fullhash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{fullhashraw}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{bibnamehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authorbibnamehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authornamehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authorfullhash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authorfullhashraw}{b6a65fafe3a90c274d325520dd7e876a}
+      \field{labelalpha}{KhatuwalPuri2022}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 3rd {{International Conference}} on {{Intelligent Engineering}} and {{Management}} ({{ICIEM}})}
+      \field{day}{27}
+      \field{eventtitle}{2022 3rd {{International Conference}} on {{Intelligent Engineering}} and {{Management}} ({{ICIEM}})}
+      \field{isbn}{978-1-6654-6756-8}
+      \field{month}{4}
+      \field{title}{Business {{Intelligence Tools}} for {{Dashboard Development}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{128\bibrangedash 131}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICIEM54221.2022.9853086
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\HHMUN78D\Khatuwal and Puri - 2022 - Business Intelligence Tools for Dashboard Development.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9853086/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9853086/
+      \endverb
+    \endentry
+    \entry{kumarBusinessIntelligence2024}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=71be5c534b129cf01532f5002ad5e25d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Anjani},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=958950c88662775a81b93c2049e730a4}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=da8d1aa29dfb02d040078f06d447f042}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{bookauthor}{3}{}{%
+        {{hash=71be5c534b129cf01532f5002ad5e25d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Anjani},
+           giveni={A\bibinitperiod}}}%
+        {{hash=958950c88662775a81b93c2049e730a4}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=da8d1aa29dfb02d040078f06d447f042}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, CA}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{fullhash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{fullhashraw}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bibnamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authorbibnamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authornamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authorfullhash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authorfullhashraw}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthorbibnamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthornamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthorfullhash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthorfullhashraw}{5f3255e67d90c7c20da0ba5264973d35}
+      \field{labelalpha}{KumarMishraKumar2024}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Architecting a {{Modern Data Warehouse}} for {{Large Enterprises}}}
+      \field{isbn}{979-8-8688-0028-3 979-8-8688-0029-0}
+      \field{langid}{english}
+      \field{title}{Business {{Intelligence}}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{307\bibrangedash 349}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1007/979-8-8688-0029-0_7
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\J5NNEIDF\Kumar et al. - 2024 - Business Intelligence.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/979-8-8688-0029-0_7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/979-8-8688-0029-0_7
+      \endverb
+    \endentry
+    \entry{levesquePathwaysExplorerInteractive2024}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1609e98973679169c2fe7aa6c0ff2980}{%
+           family={Lévesque},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bf173e908c77b3af52ea5ca1a8d138b}{%
+           family={Beaumier},
+           familyi={B\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7db10ff8cbc75729a2ce72af400c96d}{%
+           family={Hurtut},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {St. Pete Beach, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{fullhash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{fullhashraw}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{bibnamehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authorbibnamehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authornamehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authorfullhash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authorfullhashraw}{27610781a8f1a81c55cfe480ba108fa7}
+      \field{labelalpha}{LévesqueBeaumierHurtut2024}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2024 {{IEEE Workshop}} on {{Energy Data Visualization}} ({{EnergyVis}})}
+      \field{day}{13}
+      \field{eventtitle}{2024 {{IEEE Workshop}} on {{Energy Data Visualization}} ({{EnergyVis}})}
+      \field{isbn}{979-8-3503-7923-5}
+      \field{month}{10}
+      \field{shorttitle}{Pathways {{Explorer}}}
+      \field{title}{Pathways {{Explorer}}: {{Interactive Visualization}} of {{Climate Transition Scenarios}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{29\bibrangedash 33}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/EnergyVis63885.2024.00011
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\GR53BVXP\Lévesque et al. - 2024 - Pathways Explorer Interactive Visualization of Climate Transition Scenarios.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10747590/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10747590/
+      \endverb
+    \endentry
+    \entry{sahayaPoweringSalesInsights2024}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2b6721cf5f52988622548574ad20ed32}{%
+           family={Sahaya},
+           familyi={S\bibinitperiod},
+           given={Alfiansyah\bibnamedelimb Putra\bibnamedelima Nur},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad61cc7c35a6887d25625a7c1f40e986}{%
+           family={Purnawarman},
+           familyi={P\bibinitperiod},
+           given={Dimas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97624e26446a5e08e4956f9ca26db2dd}{%
+           family={Rasyidah},
+           familyi={R\bibinitperiod},
+           given={Fathny\bibnamedelima Syafa},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ea15459dd8de0b8d7c985dac1ef59ea}{%
+           family={Prabowo},
+           familyi={P\bibinitperiod},
+           given={Yulius\bibnamedelima Denny},
+           giveni={Y\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13609682d164c0b0c46e8c79308b9900}{%
+           family={{Sarwo}},
+           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=dedd771b1b75dc1568254dfa7380011a}{%
+           family={Gatc},
+           familyi={G\bibinitperiod},
+           given={Jullend},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Bangkok, Thailand}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9da8b3947facfc57023afb2ec817085f}
+      \strng{fullhash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{fullhashraw}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{bibnamehash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{authorbibnamehash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{authornamehash}{9da8b3947facfc57023afb2ec817085f}
+      \strng{authorfullhash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{authorfullhashraw}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \field{labelalpha}{Sahaya+2024}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2024 9th {{International Conference}} on {{Business}} and {{Industrial Research}} ({{ICBIR}})}
+      \field{day}{24}
+      \field{eventtitle}{2024 9th {{International Conference}} on {{Business}} and {{Industrial Research}} ({{ICBIR}})}
+      \field{isbn}{979-8-3503-8302-7}
+      \field{month}{5}
+      \field{shorttitle}{Powering {{Sales Insights}}}
+      \field{title}{Powering {{Sales Insights}}: {{A Comparative Analysis}} of {{Data Visualization Tools}}, {{Microsoft Power BI}} vs {{Tableau}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1042\bibrangedash 1047}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICBIR61386.2024.10875740
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\WALQ8TSK\Sahaya et al. - 2024 - Powering Sales Insights A Comparative Analysis of Data Visualization Tools, Microsoft Power BI vs T.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10875740/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10875740/
+      \endverb
+    \endentry
+    \entry{taveraromeroBusinessIntelligenceBusiness2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5cdaaf59fbe4add30baff37721f9ab1e}{%
+           family={Tavera\bibnamedelima Romero},
+           familyi={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Carlos\bibnamedelima Andrés},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=569d5530b53966a92100a923818daa52}{%
+           family={Ortiz},
+           familyi={O\bibinitperiod},
+           given={Jesús\bibnamedelima Hamilton},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a54db8acbd403909023fb0596cba513}{%
+           family={Khalaf},
+           familyi={K\bibinitperiod},
+           given={Osamah\bibnamedelima Ibrahim},
+           giveni={O\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad913eb131d84c816569255c03d74d06}{%
+           family={Ríos\bibnamedelima Prado},
+           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d6be245db1c71cd00c5aab0e8413022}
+      \strng{fullhash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{fullhashraw}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{bibnamehash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{authorbibnamehash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{authornamehash}{9d6be245db1c71cd00c5aab0e8413022}
+      \strng{authorfullhash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{authorfullhashraw}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \field{labelalpha}{Tavera Romero+2021}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Industry 4.0 is a set of technologies that companies require to promote innovation strategies and obtain a rapid response in dynamic markets. It focuses mainly on interconnectivity, digital technology, predictive analytics and machine learning to revolutionize the way companies operate and develop. Therefore, this article proposes and motivates the implementation of Industry 4.0 in organizations. Studying the state of the art and reviewing the current situation of business intelligence (BI) technology, the way it has positively impacted organizations at the economic and business level in terms of decision-making and some success stories implemented in different business, academic, social and governmental environments. Moreover, it addresses the future expected for Industry 4.0 primarily in BI and how companies should face this revolution. This article provides knowledge contribution about the current state and positive consequences of Industry 4.0, and high development in technology when implemented in the organization and the harmonization between production and intelligent digital technology.}
+      \field{day}{7}
+      \field{issn}{2071-1050}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{18}
+      \field{shortjournal}{Sustainability}
+      \field{shorttitle}{Business {{Intelligence}}}
+      \field{title}{Business {{Intelligence}}: {{Business Evolution}} after {{Industry}} 4.0}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.3390/su131810026
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\WBCVFU8H\Tavera Romero et al. - 2021 - Business Intelligence Business Evolution after Industry 4.0.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/13/18/10026
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/13/18/10026
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{jourdanBusinessIntelligenceAnalysis2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d38b4d3ddd5ac3bcd6cf705379691ffb}{%
+           family={Jourdan},
+           familyi={J\bibinitperiod},
+           given={Zack},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b056f70dd20b21ae1047e1da437209d}{%
+           family={Rainer},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi Kelly},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25bfad3e29f861ba087d2dd1df5bc5e0}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{fullhash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{fullhashraw}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{bibnamehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authorbibnamehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authornamehash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authorfullhash}{f2d0a27bdb691f48e692183b94b352b0}
+      \strng{authorfullhashraw}{f2d0a27bdb691f48e692183b94b352b0}
+      \field{labelalpha}{JourdanRainerMarshall2008}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{28}
+      \field{issn}{1058-0530, 1934-8703}
+      \field{journaltitle}{Information Systems Management}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{Information Systems Management}
+      \field{shorttitle}{Business {{Intelligence}}}
+      \field{title}{Business {{Intelligence}}: {{An Analysis}} of the {{Literature}}{\textsuperscript{1}}}
+      \field{urlday}{24}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{25}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{121\bibrangedash 131}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/10580530801941512
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\JI9QZTKY\Jourdan et al. - 2008 - Business Intelligence An Analysis of the Literature1.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10580530801941512
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10580530801941512
+      \endverb
+    \endentry
+    \entry{beardTableauVersion202032021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ebc5681a78656ffde72fa6ee63f34f92}{%
+           family={Beard},
+           familyi={B\bibinitperiod},
+           given={Lynly},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e1e05bd63b13b8ae6e6f45e32e9b40c}{%
+           family={Aghassibake},
+           familyi={A\bibinitperiod},
+           given={Negeen},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{fullhash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{fullhashraw}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{bibnamehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authorbibnamehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authornamehash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authorfullhash}{3a84f14d14995253ceee3ae3293645a5}
+      \strng{authorfullhashraw}{3a84f14d14995253ceee3ae3293645a5}
+      \field{labelalpha}{BeardAghassibake2021}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This review analyzes the new features in Tableau and how it can be used both by librarians and the patrons they serve.}
+      \field{day}{7}
+      \field{issn}{1558-9439, 1536-5050}
+      \field{journaltitle}{Journal of the Medical Library Association}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{jmla}
+      \field{title}{Tableau (Version 2020.3)}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{109}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5195/jmla.2021.1135
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\SKG7HF4W\Beard and Aghassibake - 2021 - Tableau (version 2020.3).pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://jmla.pitt.edu/ojs/jmla/article/view/1135
+      \endverb
+      \verb{url}
+      \verb http://jmla.pitt.edu/ojs/jmla/article/view/1135
+      \endverb
+    \endentry
+    \entry{taveraromeroBusinessIntelligenceBusiness2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5cdaaf59fbe4add30baff37721f9ab1e}{%
+           family={Tavera\bibnamedelima Romero},
+           familyi={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Carlos\bibnamedelima Andrés},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=569d5530b53966a92100a923818daa52}{%
+           family={Ortiz},
+           familyi={O\bibinitperiod},
+           given={Jesús\bibnamedelima Hamilton},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a54db8acbd403909023fb0596cba513}{%
+           family={Khalaf},
+           familyi={K\bibinitperiod},
+           given={Osamah\bibnamedelima Ibrahim},
+           giveni={O\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad913eb131d84c816569255c03d74d06}{%
+           family={Ríos\bibnamedelima Prado},
+           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d6be245db1c71cd00c5aab0e8413022}
+      \strng{fullhash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{fullhashraw}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{bibnamehash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{authorbibnamehash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{authornamehash}{9d6be245db1c71cd00c5aab0e8413022}
+      \strng{authorfullhash}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \strng{authorfullhashraw}{3fc063ce9c2dfbf0d23cf36b59c24bf9}
+      \field{labelalpha}{Tavera Romero+2021}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Industry 4.0 is a set of technologies that companies require to promote innovation strategies and obtain a rapid response in dynamic markets. It focuses mainly on interconnectivity, digital technology, predictive analytics and machine learning to revolutionize the way companies operate and develop. Therefore, this article proposes and motivates the implementation of Industry 4.0 in organizations. Studying the state of the art and reviewing the current situation of business intelligence (BI) technology, the way it has positively impacted organizations at the economic and business level in terms of decision-making and some success stories implemented in different business, academic, social and governmental environments. Moreover, it addresses the future expected for Industry 4.0 primarily in BI and how companies should face this revolution. This article provides knowledge contribution about the current state and positive consequences of Industry 4.0, and high development in technology when implemented in the organization and the harmonization between production and intelligent digital technology.}
+      \field{day}{7}
+      \field{issn}{2071-1050}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{18}
+      \field{shortjournal}{Sustainability}
+      \field{shorttitle}{Business {{Intelligence}}}
+      \field{title}{Business {{Intelligence}}: {{Business Evolution}} after {{Industry}} 4.0}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.3390/su131810026
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\WBCVFU8H\Tavera Romero et al. - 2021 - Business Intelligence Business Evolution after Industry 4.0.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/13/18/10026
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/13/18/10026
+      \endverb
+    \endentry
+    \entry{dalbahInteractiveDashboardPredicting2022}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2d7abc1fde1267d07f732f4fdbb9a586}{%
+           family={Dalbah},
+           familyi={D\bibinitperiod},
+           given={Lamees\bibnamedelima Mohammad},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17a8ab034841a5f4da4ff66a60af34c9}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Sharaz},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3356b5f8fb14ed9f8fa93b94e9c1fbf}{%
+           family={Al-Naymat},
+           familyi={A\bibinithyphendelim N\bibinitperiod},
+           given={Ghazi},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Karak, Jordan}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{fullhash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{fullhashraw}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{bibnamehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authorbibnamehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authornamehash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authorfullhash}{072802f6fc0e77bf5b09c8df8090d16c}
+      \strng{authorfullhashraw}{072802f6fc0e77bf5b09c8df8090d16c}
+      \field{labelalpha}{DalbahAliAl-Naymat2022}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 {{International Conference}} on {{Emerging Trends}} in {{Computing}} and {{Engineering Applications}} ({{ETCEA}})}
+      \field{eventtitle}{2022 {{International Conference}} on {{Emerging Trends}} in {{Computing}} and {{Engineering Applications}} ({{ETCEA}})}
+      \field{isbn}{978-1-6654-7709-3}
+      \field{month}{11}
+      \field{title}{An {{Interactive Dashboard}} for {{Predicting Bank Customer Attrition}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ETCEA57049.2022.10009818
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\YXKT2XGM\Dalbah et al. - 2022 - An Interactive Dashboard for Predicting Bank Customer Attrition.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10009818/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10009818/
+      \endverb
+    \endentry
+    \entry{hamzehiBusinessIntelligenceUsing2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1018f2276529f557176a6cf950680223}{%
+           family={Hamzehi},
+           familyi={H\bibinitperiod},
+           given={Morteza},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9f7ebdf8a2d5442801dd45c5d0654e8}{%
+           family={Hosseini},
+           familyi={H\bibinitperiod},
+           given={Soodeh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{fullhash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{fullhashraw}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{bibnamehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authorbibnamehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authornamehash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authorfullhash}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \strng{authorfullhashraw}{69cbde0faa57cb4a0d885e64ee562fc5}
+      \field{labelalpha}{HamzehiHosseini2022}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1380-7501, 1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Multimed Tools Appl}
+      \field{title}{Business Intelligence Using Machine Learning Algorithms}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{81}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{33233\bibrangedash 33251}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s11042-022-13132-3
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\U2M5MBFQ\Hamzehi and Hosseini - 2022 - Business intelligence using machine learning algorithms.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s11042-022-13132-3
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s11042-022-13132-3
+      \endverb
+    \endentry
+    \entry{khatuwalBusinessIntelligenceTools2022}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bcbe3b3a97f13b11eb9d45821bf1cbde}{%
+           family={Khatuwal},
+           familyi={K\bibinitperiod},
+           given={Vishnu\bibnamedelima Singh},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1179c0f52220b02d5bda7fc02c05c53}{%
+           family={Puri},
+           familyi={P\bibinitperiod},
+           given={Digvijay},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{fullhash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{fullhashraw}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{bibnamehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authorbibnamehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authornamehash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authorfullhash}{b6a65fafe3a90c274d325520dd7e876a}
+      \strng{authorfullhashraw}{b6a65fafe3a90c274d325520dd7e876a}
+      \field{labelalpha}{KhatuwalPuri2022}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 3rd {{International Conference}} on {{Intelligent Engineering}} and {{Management}} ({{ICIEM}})}
+      \field{day}{27}
+      \field{eventtitle}{2022 3rd {{International Conference}} on {{Intelligent Engineering}} and {{Management}} ({{ICIEM}})}
+      \field{isbn}{978-1-6654-6756-8}
+      \field{month}{4}
+      \field{title}{Business {{Intelligence Tools}} for {{Dashboard Development}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{128\bibrangedash 131}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICIEM54221.2022.9853086
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\HHMUN78D\Khatuwal and Puri - 2022 - Business Intelligence Tools for Dashboard Development.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9853086/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9853086/
+      \endverb
+    \endentry
+    \entry{belghithDataVisualizationIndustry2023}{incollection}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4038ba81bfa12ec14875447827aa5ffe}{%
+           family={Belghith},
+           familyi={B\bibinitperiod},
+           given={Mariem},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55a40dc6590dd2f2c02e240c724dda03}{%
+           family={Ben\bibnamedelima Ammar},
+           familyi={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Hanen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fed0127982d745cab563ab0a89dac23}{%
+           family={Masmoudi},
+           familyi={M\bibinitperiod},
+           given={Faouzi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1d0e5ae806e868f1e054f0c99e63907}{%
+           family={Elloumi},
+           familyi={E\bibinitperiod},
+           given={Abdelkarim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{9}{}{%
+        {{hash=62452c077be54ea459fd6d6da6f8b580}{%
+           family={Walha},
+           familyi={W\bibinitperiod},
+           given={Lassaad},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b4c9ca98f13c9ae0cf957007ac217f51}{%
+           family={Jarraya},
+           familyi={J\bibinitperiod},
+           given={Abdessalem},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5b7357e527c67cf27c94eb7c56fc606}{%
+           family={Djemal},
+           familyi={D\bibinitperiod},
+           given={Fathi},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f4d342a7c0b5a2711f7d32c92becf9ea}{%
+           family={Chouchane},
+           familyi={C\bibinitperiod},
+           given={Mnaouar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=860f22149de4e847c32011fce29a9d0a}{%
+           family={Aifaoui},
+           familyi={A\bibinitperiod},
+           given={Nizar},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0462611438cf4464ee93bd6f80fa9596}{%
+           family={Chaari},
+           familyi={C\bibinitperiod},
+           given={Fakher},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a5a252fee4d09961912b8b77adb83b42}{%
+           family={Abdennadher},
+           familyi={A\bibinitperiod},
+           given={Moez},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e76f60726ed7d645093e7be48f05884}{%
+           family={Benamara},
+           familyi={B\bibinitperiod},
+           given={Abdelmajid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3dc1bd8310c5fa991b20b6868b6b567a}{%
+           family={Haddar},
+           familyi={H\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{59ef36130064e30e9c9108a7aa662f7f}
+      \strng{fullhash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{fullhashraw}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{bibnamehash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{authorbibnamehash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{authornamehash}{59ef36130064e30e9c9108a7aa662f7f}
+      \strng{authorfullhash}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{authorfullhashraw}{81575ab39071ec0ef0715c9e3344711f}
+      \strng{editorbibnamehash}{fc61db620b6bef8c62e7d57b38d7f7ca}
+      \strng{editornamehash}{1a5576b2614d609c02e0b8f9df95ef4c}
+      \strng{editorfullhash}{fc61db620b6bef8c62e7d57b38d7f7ca}
+      \strng{editorfullhashraw}{fc61db620b6bef8c62e7d57b38d7f7ca}
+      \field{labelalpha}{Belghith+2023}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Design and {{Modeling}} of {{Mechanical Systems}} - {{V}}}
+      \field{isbn}{978-3-031-14614-5 978-3-031-14615-2}
+      \field{langid}{english}
+      \field{shorttitle}{Data {{Visualization}} for {{Industry}} 4.0}
+      \field{title}{Data {{Visualization}} for {{Industry}} 4.0: {{Developing Dashboards}} with {{Power BI}} – {{A Case Study}} in a {{Pharmaceutical Company}}}
+      \field{urlday}{24}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{402\bibrangedash 408}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/978-3-031-14615-2_45
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\MGXR6NNW\Belghith et al. - 2023 - Data Visualization for Industry 4.0 Developing Dashboards with Power BI – A Case Study in a Pharmac.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-031-14615-2_45
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-031-14615-2_45
+      \endverb
+    \endentry
+    \entry{bussaEnhancingBITools2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=66fbba6de2ec4065163163ccfc81e569}{%
+           family={Bussa},
+           familyi={B\bibinitperiod},
+           given={Santhosh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{fullhash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{fullhashraw}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{bibnamehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authorbibnamehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authornamehash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authorfullhash}{66fbba6de2ec4065163163ccfc81e569}
+      \strng{authorfullhashraw}{66fbba6de2ec4065163163ccfc81e569}
+      \field{labelalpha}{Bussa2023}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data-driven decision-making and actionable insights are now among the supporting tools of any organization, Business Intelligence (BI). The paper attempts to describe the evolvement process of BI tools, spotlighting the supportive role played by visualization. The existing challenges identified with visualization comprise integration, real-time processing, and accessibility by users. Innovative ideas in this paper have been demonstrated using AI-driven insights, Predictive analytics and customized dashboards involving analytic work that outlines the role of emerging technologies such as cloud computing, 5G and blockchain. In this respect, through a well-structured framework comprising suitable methodologies we envision BI tools strategies that would yield accurate and scalable yet user-friendly visualizations. Future trends as well as ethical considerations are taken to ensure the sustainable growth of business systems.}
+      \field{day}{27}
+      \field{issn}{2320088X}
+      \field{journaltitle}{International Journal of Computer Science and Mobile Computing}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{IJCSMC}
+      \field{title}{Enhancing {{BI Tools}} for {{Improved Data Visualization}} and {{Insights}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{70\bibrangedash 92}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.47760/ijcsmc.2023.v12i02.005
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\RLZAKPB2\Bussa - 2023 - Enhancing BI Tools for Improved Data Visualization and Insights.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ijcsmc.com/docs/papers/February2023/V12I2202307.pdf
+      \endverb
+      \verb{url}
+      \verb https://ijcsmc.com/docs/papers/February2023/V12I2202307.pdf
+      \endverb
+    \endentry
+    \entry{gurcanBusinessIntelligenceStrategies2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f14fc11bbe2cc4341ccdf736152f1b07}{%
+           family={Gurcan},
+           familyi={G\bibinitperiod},
+           given={Fatih},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5955572fe9e7fe4eadc200226a9455cd}{%
+           family={Ayaz},
+           familyi={A\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87891958c90db31b776b6618f7c0db1b}{%
+           family={Menekse\bibnamedelima Dalveren},
+           familyi={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Gonca\bibnamedelima Gokce},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cceac6401908bce83624f6c3f6832a5}{%
+           family={Derawi},
+           familyi={D\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bab672f44aa7405757a22a4f377c0290}
+      \strng{fullhash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{fullhashraw}{313ca5a033399b6b1f08a02168c10173}
+      \strng{bibnamehash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{authorbibnamehash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{authornamehash}{bab672f44aa7405757a22a4f377c0290}
+      \strng{authorfullhash}{313ca5a033399b6b1f08a02168c10173}
+      \strng{authorfullhashraw}{313ca5a033399b6b1f08a02168c10173}
+      \field{labelalpha}{Gurcan+2023}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The widespread use of business intelligence products, services, and applications piques the interest of researchers in this field. The interest of researchers in business intelligence increases the number of studies significantly. Identifying domain-specific research patterns and trends is thus a significant research problem. This study employs a topic modeling approach to analyze domain-specific articles in order to identify research patterns and trends in the business intelligence field over the last 20 years. As a result, 36 topics were discovered that reflect the field’s research landscape and trends. Topics such as “Organizational Capability”, “AI Applications”, “Data Mining”, “Big Data Analytics”, and “Visualization” have recently gained popularity. A systematic taxonomic map was also created, revealing the research background and BI perspectives based on the topics. This study may be useful to researchers and practitioners interested in learning about the most recent developments in the field. Topics generated by topic modeling can also be used to identify gaps in current research or potential future research directions.}
+      \field{day}{21}
+      \field{issn}{2071-1050}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{13}
+      \field{shortjournal}{Sustainability}
+      \field{shorttitle}{Business {{Intelligence Strategies}}, {{Best Practices}}, and {{Latest Trends}}}
+      \field{title}{Business {{Intelligence Strategies}}, {{Best Practices}}, and {{Latest Trends}}: {{Analysis}} of {{Scientometric Data}} from 2003 to 2023 {{Using Machine Learning}}}
+      \field{urlday}{23}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.3390/su15139854
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\BJRKXJUY\Gurcan et al. - 2023 - Business Intelligence Strategies, Best Practices, and Latest Trends Analysis of Scientometric Data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/15/13/9854
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/15/13/9854
+      \endverb
+    \endentry
+    \entry{kumarBusinessIntelligence2024}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=71be5c534b129cf01532f5002ad5e25d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Anjani},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=958950c88662775a81b93c2049e730a4}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=da8d1aa29dfb02d040078f06d447f042}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{bookauthor}{3}{}{%
+        {{hash=71be5c534b129cf01532f5002ad5e25d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Anjani},
+           giveni={A\bibinitperiod}}}%
+        {{hash=958950c88662775a81b93c2049e730a4}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=da8d1aa29dfb02d040078f06d447f042}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, CA}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{fullhash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{fullhashraw}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bibnamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authorbibnamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authornamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authorfullhash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{authorfullhashraw}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthorbibnamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthornamehash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthorfullhash}{5f3255e67d90c7c20da0ba5264973d35}
+      \strng{bookauthorfullhashraw}{5f3255e67d90c7c20da0ba5264973d35}
+      \field{labelalpha}{KumarMishraKumar2024}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Architecting a {{Modern Data Warehouse}} for {{Large Enterprises}}}
+      \field{isbn}{979-8-8688-0028-3 979-8-8688-0029-0}
+      \field{langid}{english}
+      \field{title}{Business {{Intelligence}}}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{307\bibrangedash 349}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1007/979-8-8688-0029-0_7
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\J5NNEIDF\Kumar et al. - 2024 - Business Intelligence.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/979-8-8688-0029-0_7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/979-8-8688-0029-0_7
+      \endverb
+    \endentry
+    \entry{levesquePathwaysExplorerInteractive2024}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1609e98973679169c2fe7aa6c0ff2980}{%
+           family={Lévesque},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bf173e908c77b3af52ea5ca1a8d138b}{%
+           family={Beaumier},
+           familyi={B\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7db10ff8cbc75729a2ce72af400c96d}{%
+           family={Hurtut},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {St. Pete Beach, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{fullhash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{fullhashraw}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{bibnamehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authorbibnamehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authornamehash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authorfullhash}{27610781a8f1a81c55cfe480ba108fa7}
+      \strng{authorfullhashraw}{27610781a8f1a81c55cfe480ba108fa7}
+      \field{labelalpha}{LévesqueBeaumierHurtut2024}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2024 {{IEEE Workshop}} on {{Energy Data Visualization}} ({{EnergyVis}})}
+      \field{day}{13}
+      \field{eventtitle}{2024 {{IEEE Workshop}} on {{Energy Data Visualization}} ({{EnergyVis}})}
+      \field{isbn}{979-8-3503-7923-5}
+      \field{month}{10}
+      \field{shorttitle}{Pathways {{Explorer}}}
+      \field{title}{Pathways {{Explorer}}: {{Interactive Visualization}} of {{Climate Transition Scenarios}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{29\bibrangedash 33}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/EnergyVis63885.2024.00011
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\GR53BVXP\Lévesque et al. - 2024 - Pathways Explorer Interactive Visualization of Climate Transition Scenarios.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10747590/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10747590/
+      \endverb
+    \endentry
+    \entry{sahayaPoweringSalesInsights2024}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2b6721cf5f52988622548574ad20ed32}{%
+           family={Sahaya},
+           familyi={S\bibinitperiod},
+           given={Alfiansyah\bibnamedelimb Putra\bibnamedelima Nur},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad61cc7c35a6887d25625a7c1f40e986}{%
+           family={Purnawarman},
+           familyi={P\bibinitperiod},
+           given={Dimas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97624e26446a5e08e4956f9ca26db2dd}{%
+           family={Rasyidah},
+           familyi={R\bibinitperiod},
+           given={Fathny\bibnamedelima Syafa},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ea15459dd8de0b8d7c985dac1ef59ea}{%
+           family={Prabowo},
+           familyi={P\bibinitperiod},
+           given={Yulius\bibnamedelima Denny},
+           giveni={Y\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13609682d164c0b0c46e8c79308b9900}{%
+           family={{Sarwo}},
+           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=dedd771b1b75dc1568254dfa7380011a}{%
+           family={Gatc},
+           familyi={G\bibinitperiod},
+           given={Jullend},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Bangkok, Thailand}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9da8b3947facfc57023afb2ec817085f}
+      \strng{fullhash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{fullhashraw}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{bibnamehash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{authorbibnamehash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{authornamehash}{9da8b3947facfc57023afb2ec817085f}
+      \strng{authorfullhash}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \strng{authorfullhashraw}{79cd892b9b6d393b1c2897b1a6c41f1d}
+      \field{labelalpha}{Sahaya+2024}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2024 9th {{International Conference}} on {{Business}} and {{Industrial Research}} ({{ICBIR}})}
+      \field{day}{24}
+      \field{eventtitle}{2024 9th {{International Conference}} on {{Business}} and {{Industrial Research}} ({{ICBIR}})}
+      \field{isbn}{979-8-3503-8302-7}
+      \field{month}{5}
+      \field{shorttitle}{Powering {{Sales Insights}}}
+      \field{title}{Powering {{Sales Insights}}: {{A Comparative Analysis}} of {{Data Visualization Tools}}, {{Microsoft Power BI}} vs {{Tableau}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1042\bibrangedash 1047}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICBIR61386.2024.10875740
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\WALQ8TSK\Sahaya et al. - 2024 - Powering Sales Insights A Comparative Analysis of Data Visualization Tools, Microsoft Power BI vs T.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10875740/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10875740/
+      \endverb
+    \endentry
+    \entry{hanumanthaiahAdvancementsDataVisualization2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=21d68348561cfc4233914c617444b794}{%
+           family={Hanumanthaiah},
+           familyi={H\bibinitperiod},
+           given={Suhas},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21d68348561cfc4233914c617444b794}
+      \strng{fullhash}{21d68348561cfc4233914c617444b794}
+      \strng{fullhashraw}{21d68348561cfc4233914c617444b794}
+      \strng{bibnamehash}{21d68348561cfc4233914c617444b794}
+      \strng{authorbibnamehash}{21d68348561cfc4233914c617444b794}
+      \strng{authornamehash}{21d68348561cfc4233914c617444b794}
+      \strng{authorfullhash}{21d68348561cfc4233914c617444b794}
+      \strng{authorfullhashraw}{21d68348561cfc4233914c617444b794}
+      \field{labelalpha}{Hanumanthaiah2025}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper explores the recent advancements in data visualization, highlighting innovative tools, techniques, and applications that enhance the understanding of complex datasets. As data continues to grow in volume and complexity, traditional visualization methods are becoming inadequate, necessitating the development of more sophisticated approaches. The review begins by examining comprehensive visualization platforms like iFeatureOmega, which integrates feature engineering, visualization, and analysis for molecular data [1]. Web-based platforms such as the euPOLIS Visualization Platform (eVP) are also discussed, showcasing their ability to monitor the spatiotemporal impact of nature-based solutions in urban environments [2].The paper further investigates interactive and immersive visualization techniques, including three-dimensional representations and virtual/augmented reality applications, which offer heightened immersion and facilitate collaborative data exploration [3]. Domain-specific applications in healthcare, environmental monitoring, and business intelligence are analyzed to demonstrate the practical benefits of advanced visualization tools. The integration of artificial intelligence (AI) and machine learning (ML) is identified as a key technological enabler, enhancing analytical capabilities and pattern recognition [4]. Blockchain and Internet of Things (IoT) technologies are also explored for their roles in ensuring transparency and enabling real-time data visualization in various sectors [5] , [6]. User-centered design approaches and evaluation methods are emphasized to ensure the effectiveness and usability of visualization systems. Finally, the review addresses existing limitations and challenges, proposing future research directions such as privacy-preserving visualization techniques and further integration of AI and ML to improve data analysis and communication.}
+      \field{day}{31}
+      \field{issn}{2582-8010}
+      \field{journaltitle}{International Journal of Leading Research Publication}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{IJLRP}
+      \field{shorttitle}{Advancements in {{Data Visualization}}}
+      \field{title}{Advancements in {{Data Visualization}}: {{A Comprehensive Literature Review}}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.70528/IJLRP.v6.i5.1577
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\WQLHLIMI\Hanumanthaiah - 2025 - Advancements in Data Visualization A Comprehensive Literature Review.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ijlrp.com/research-paper.php?id=1577
+      \endverb
+      \verb{url}
+      \verb https://www.ijlrp.com/research-paper.php?id=1577
+      \endverb
+    \endentry
+    \entry{kattaLeveragingPowerBI2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ee94c63287ceb2d1425545290c89ccd}{%
+           family={Katta},
+           familyi={K\bibinitperiod},
+           given={Srikanth\bibnamedelima Reddy},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{fullhash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{fullhashraw}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{bibnamehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authorbibnamehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authornamehash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authorfullhash}{2ee94c63287ceb2d1425545290c89ccd}
+      \strng{authorfullhashraw}{2ee94c63287ceb2d1425545290c89ccd}
+      \field{labelalpha}{Katta2025}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The pharmaceutical industry thus has many pieces of equipment that are very critical and very sensitive to breakdowns, and these are used in almost all the steps of production and are very crucial in ensuring that they meet the set regulatory requirements as well as achieve the best quality in production. Most of the maintenance undertakings are carried out following the ‘break and fix’ or ‘run and correct’ method, which results in poor performance, unanticipated machine failure, and high costs. The use of business intelligence tools such as Power BI is a revolution in the business fraternity as it enhances the ability to monitor data in real time, implement real-life maintenance, and result in the formulation of data-based decisions. General maintenance data from various sources, including mechanical or electrical equipment sensors, ERP systems, or maintenance logs, is integrated into Power BI platforms and provides detailed insights into KPIs that cover operational readability and failure anticipation and schedules for the maintenance department. With the help of Power BI and its sophisticated capabilities for data analysis and artificial intelligence, the pharmaceutical industry can easily change from a periodical maintenance regimen to a prescriptive and predictive one – thus improving machinery performance and reducing the chances of overall production failures. The framework suggested in this research leverages Power BI’s functionality to enhance the management of maintenance through the consolidation of various data sets and storage of the data in a single location. The infrastructure allows the real-time monitoring of equipment health status reporting and improves or even provides decision-making with the use of trend analysis and analytics. By using Power BI, maintenance teams in the pharmaceutical industry are able to determine failure trends and usage frequency of the pieces of equipment. Consequently, they are able to determine where to channel their efforts and minimize costs. Findings shown in the case of this study, therefore, show a considerable improvement in equipment availability or use and costs of maintenance, affirming the benefits that could be obtained from the BI-driven approach. Also, due to the specific focus on the field of pharmaceuticals, the impact of Power BI in compliance reporting and audit purposes of maintenance operations is investigated. Thus, through the implementation of this technology, pharmaceutical organizations will be able to optimize their performance and even gain a competitive advantage of running uninterrupted, high-quality production lines}
+      \field{issn}{23473002}
+      \field{journaltitle}{Journal of Research in Business and Management}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Quest Journals}
+      \field{title}{Leveraging {{Power BI}} for {{Data-Driven Decision-Making}} in {{Pharma Maintenance Operations}}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 70}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.35629/3002-13026170
+      \endverb
+      \verb{file}
+      \verb C:\Users\GOKKC\Zotero\storage\S3J7DW5M\Katta - 2025 - Leveraging Power BI for Data-Driven Decision-Making in Pharma Maintenance Operations.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.questjournals.org/jrbm/papers/vol13-issue2/13026170.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.questjournals.org/jrbm/papers/vol13-issue2/13026170.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

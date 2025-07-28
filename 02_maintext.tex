@@ -1,0 +1,360 @@
+\chapter{Introduction}
+Research questions:
+
+
+    \begin{enumerate}[label=\textit{\arabic*.}]
+        \item \textit{What key factors influenced Bayer's decision to transition 
+        from Tableau to Power BI, particularly in terms of cost, functionality, 
+        and organizational needs?}
+        \item \textit{How has the transition to Power BI impacted the PCT 
+        Team within \gls{rd} Finance, specifically regarding workflow 
+        efficiency and data accessibility?}
+        \item \textit{What strategies and best practices can the PCT Team 
+        implement to successfully migrate dashboards from Tableau to Power BI, 
+        ensuring minimal disruption and enhanced performance?}
+    \end{enumerate}
+    
+
+\chapter{Understanding Business Intelligence and Dashboard Technology}
+
+\gls{bi} encompasses a complex interplay of
+processes and products that facilitate effective 
+decision-making through the integration and analysis of an 
+organization’s data resources \autocite[p.1]{taveraromeroBusinessIntelligenceBusiness2021}. 
+This process involves various methodologies that organizations 
+adopt to transform raw data into valuable information or 
+insights, which is essential for success in today’s 
+competitive global landscape \autocite[p.121]{jourdanBusinessIntelligenceAnalysis2008}. 
+Moreover, BI empowers businesses to formulate critical 
+questions by leveraging data derived from diverse operations, 
+customer interactions, and competitive insights, both within 
+their industry and beyond. This capability not only aids in 
+identifying new growth opportunities but also enhances 
+organizational resilience \autocite[p.308]{kumarBusinessIntelligence2024}. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Maybe consider to have also a critical perspective on it, that BI CAN 
+%empower the busniess but challanges are also historical grown data 
+%structure / no data structure etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+When comparing these perspectives, it is clear that while 
+\citeauthor{taveraromeroBusinessIntelligenceBusiness2021} 
+emphasize the technical integration 
+and analysis aspect, \citeauthor{jourdanBusinessIntelligenceAnalysis2008} 
+focus on the transformative process that converts data into actionable 
+intelligence. \citeauthor{kumarBusinessIntelligence2024} 
+further expands on this by highlighting 
+the proactive role of \gls{bi} in strategic decision-making and 
+identifying opportunities. Each perspective contributes to 
+a comprehensive understanding of BI, illustrating its 
+evolution from a data-centric tool ecosystem to a strategic asset 
+that empowers organizations to navigate complex market 
+dynamics effectively.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=12.5cm]{images/BI_Reports.png}
+    \caption{Types of BI Reports}
+    \label{fig:types_of_bi_reports}
+    \begin{flushleft}
+        \small{Source: Own Creation}
+    \end{flushleft}    
+\end{figure}
+
+It continues to evolve as a strategic asset, offering 
+diverse types of reports that enhance decision-making 
+through the integration and analysis of data resources. 
+As seen in Fig.\ref{fig:types_of_bi_reports}, these reports are categorized into descriptive, 
+predictive, and prescriptive types, each representing an evolution
+of the usage of data resources.
+purposes within an organization. 
+Descriptive reports focus on analyzing past events using 
+\gls{kpi} and employ root cause 
+analysis to evaluate reasons behind these events, 
+exemplified by operational reporting. Predictive reports 
+extend beyond historical data by utilizing algorithms
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Is a definition needed before introducing this term?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+such as neural networks, logistic regressions, and 
+linear regressions to forecast near-future trends and option spaces. 
+Meanwhile, prescriptive reports provide actionable 
+recommendations, suggesting adjustments to specific 
+factors within a business model. These factors are 
+input into a model that can be refined, acknowledging 
+the interdependence between them \autocite[pp. 308-310]{kumarBusinessIntelligence2024}.
+ 
+A central part of \gls{bi} are Dashboards. They are visual
+representations of \gls{bi} data that serve as an influential instrument for 
+decision-makers by facilitating the monitoring of 
+production processes to enhance performance 
+\autocite[p. 407]{belghithDataVisualizationIndustry2023}. 
+In a case study conducted by Katta (\citeyear[p.68]{kattaLeveragingPowerBI2025}), 
+the implementation of the \gls{bi} Platform Power BI within a 
+pharmaceutical company was evaluated, revealing significant financial 
+savings through the use of dashboards. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% rethink the connect, its not as flewent for the reader to follow, 
+%jumping from production processes to financial savings... but for what?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The study highlighted 
+an average monthly cost savings of approximately \$40,000 
+post-implementation, alongside notable operational 
+improvements. In this case it was through the integration 
+of automated \gls{kpi}s, that simplified 
+the management's task of identifying areas needing 
+improvement or exhibiting low performance. Comparing 
+these findings with other industries, it becomes evident 
+that dashboards not only enhance financial efficiency but 
+also promote a proactive approach in operational 
+management.
+
+
+
+\chapter{Emerging Trends in the Dashboard Industry}
+Dashboard technology is increasingly pivotal 
+in transforming complex data into actionable 
+insights for strategic decision-making. 
+Modern dashboards emphasize interactivity 
+and user-friendly designs, enabling dynamic 
+data exploration and rapid comprehension. 
+This chapter examines how innovations, such 
+as the "Pathway Explorer," are advancing 
+data visualization by offering intuitive 
+interfaces and real-time processing, enhancing 
+communication between analysts and 
+decision-makers for more informed, 
+sustainable outcomes.
+
+The concept of interactivity in data 
+exploration is increasingly recognized 
+as a valuable feature, enabling users to 
+dynamically engage with information. 
+\autocite[p.5]{hanumanthaiahAdvancementsDataVisualization2025} 
+highlights the 
+benefits of interactivity, noting that 
+it allows users to explore data dynamically, 
+which enhances the overall user experience. 
+This approach is exemplified by the 
+"Pathway Explorer," a tool developed by the 
+Institut de l’énergie Trottier (IET) and 
+described by \autocite{levesquePathwaysExplorerInteractive2024}. 
+The "Pathway Explorer" is an innovative visualization 
+tool that facilitates comparisons between various 
+climate transition scenarios. It provides an 
+interactive platform where users can select, 
+view, and dissect multiple pathways towards 
+sustainability, thereby enhancing the 
+decision-making process \autocite[p.32]{levesquePathwaysExplorerInteractive2024}.
+
+The findings from Levesque et al. (\citeyear{levesquePathwaysExplorerInteractive2024}) 
+further underscore the advantages of interactive 
+exploration. The tool enables users to navigate 
+through results with simple mouse clicks, 
+eliminating the need to continuously generate 
+and revise tables, thus streamlining data 
+analysis \autocite[p.32]{levesquePathwaysExplorerInteractive2024}. 
+Additionally, the ease of use and speed of 
+the "Pathway Explorer" are significant 
+benefits. Its rapid processing and visual 
+interface allow users to quickly understand 
+and navigate data with a minimal learning 
+curve. Immediate result viewing is facilitated 
+through tooltips that display data points 
+upon hovering, enhancing the efficiency of 
+data exploration .
+
+Moreover, the tool supports quick access 
+to comparative data measures, such as percentages, 
+and facilitates easy toggling between different 
+views and scenarios for more detailed analyses \autocite[p.32]{levesquePathwaysExplorerInteractive2024}. 
+This feature is particularly useful for users 
+seeking to perform comprehensive evaluations 
+and draw meaningful insights from complex 
+datasets.
+
+In comparison, the study by \citeauthor{dalbahInteractiveDashboardPredicting2022} (\citeyear[p.1]{dalbahInteractiveDashboardPredicting2022}) 
+emphasizes the importance of user-friendly 
+interfaces in dashboards. These dashboards 
+are designed to facilitate exploratory 
+analysis of customer data and predictions 
+of loyalty status. They serve as a 
+communication bridge between data analysts 
+and organization managers, providing actionable 
+insights that can drive strategic decisions 
+\autocite[p.1]{dalbahInteractiveDashboardPredicting2022}. 
+While both the "Pathway Explorer" and dashboards 
+aim to enhance data accessibility and usability, 
+the former focuses on sustainability scenarios, 
+whereas the latter centers on customer data analysis.
+
+In evaluating these sources, it is clear that 
+both emphasize the significance of interactivity 
+and user-friendly design in data tools. 
+However, the "Pathway Explorer" offers a 
+specialized focus on climate transition scenarios, 
+providing a unique platform for sustainability 
+analysis, while dashboards, as discussed by 
+\citeauthor{dalbahInteractiveDashboardPredicting2022}, 
+cater to a broader range of 
+business applications. Both approaches 
+demonstrate the evolving landscape of data 
+visualization tools, where interactivity 
+and ease of use are paramount for effective 
+data exploration and decision-making.
+
+The integration of cloud computing and 
+machine learning into dashboard technology 
+represents a significant advancement in 
+how organizations manage and utilize data. 
+\citeauthor{bussaEnhancingBITools2023} (\citeyear{bussaEnhancingBITools2023}) 
+emphasizes the transformative 
+power of cloud computing, which allows for 
+the storage, processing, and analysis of 
+large data sets without the need for 
+detailed on-premises infrastructures. 
+This capability facilitates global 
+collaboration, making it easier for 
+organizations to work together across 
+geographic boundaries \autocite[p. 82]{bussaEnhancingBITools2023}.
+
+\citeauthor{gurcanBusinessIntelligenceStrategies2023} (\citeyear{gurcanBusinessIntelligenceStrategies2023}) 
+provide a comprehensive 
+evaluation of business intelligence 
+strategies from 2003 to 2023, identifying 
+"Organizational capability" as the fastest 
+emerging trend. This trend underscores the 
+importance of an organization's ability to 
+assemble, integrate, and distribute resources 
+effectively, turning organizational knowledge 
+into tangible value \autocite[p. 14]{gurcanBusinessIntelligenceStrategies2023}. 
+This insight is crucial for understanding how 
+BI solutions can shape the future path of 
+organizations by facilitating resource management 
+and strategic planning.
+
+In contrast, the second fastest emerging 
+trend identified by \citeauthor{gurcanBusinessIntelligenceStrategies2023} 
+is the application of AI in business intelligence. 
+AI's ability to analyze vast amounts of data 
+and provide recommendations makes analytics 
+accessible to both data scientists and average 
+users, thus democratizing data insights across 
+the organization. This trend highlights the 
+growing importance of AI in making complex data 
+understandable and actionable.
+
+\citeauthor{hamzehiBusinessIntelligenceUsing2022} (\citeyear{hamzehiBusinessIntelligenceUsing2022}), 
+on the other hand, focus on the 
+application of machine learning within the 
+pharmaceutical industry, demonstrating how 
+clustering algorithms can optimize product 
+sales systems by segmenting customers based 
+on purchasing behaviors \autocite[p. 33233]{hamzehiBusinessIntelligenceUsing2022}. 
+Their study provides a detailed look at how 
+machine learning can enhance business processes, 
+offering a specific industry perspective on the 
+broader trends identified by \citeauthor{gurcanBusinessIntelligenceStrategies2023}.
+
+The exploration in the reasearch of \citeauthor{dalbahInteractiveDashboardPredicting2022} (\citeyear{dalbahInteractiveDashboardPredicting2022})
+concentrates on 
+machine learning algorithms in dashboards 
+to predict customer attrition rates, using 
+techniques such as Logistic Regression and 
+Random Forest to enhance predictive capabilities 
+\autocite[p.1]{dalbahInteractiveDashboardPredicting2022}. 
+This study 
+complements other trends by illustrating 
+how machine learning can be applied to improve 
+customer loyalty insights, thereby enhancing 
+business performance.
+
+In evaluating these sources, \citeauthor{bussaEnhancingBITools2023}'s work 
+provides a foundational understanding of cloud 
+computing's role in facilitating global 
+collaboration, while \citeauthor{gurcanBusinessIntelligenceStrategies2023} 
+offer a longitudinal analysis of business intelligence 
+trends, providing context for the technological 
+advancements discussed. Hamzehi and Hosseini's 
+study adds depth by focusing on industry-specific 
+applications, and \citeauthor{dalbahInteractiveDashboardPredicting2022} 
+demonstrate 
+practical implementations of machine learning in 
+dashboards. Together, these sources paint a 
+comprehensive picture of current trends in 
+dashboard technology, highlighting the importance 
+of integrating cloud computing and machine 
+learning to drive strategic and sustainable 
+business outcomes.
+
+Following the exploration of current trends 
+in dashboard technology, it is essential to 
+delve into specific tools that exemplify 
+these advancements. Tableau and Power BI 
+are two leading platforms in the realm of 
+data visualization and business intelligence, 
+each offering distinct features and benefits 
+that cater to different organizational needs.
+
+Tableau is renowned for its sophisticated data 
+visualization capabilities, providing users 
+with a wide array of options, including bar 
+charts, line charts, Gantt charts, and maps, 
+which facilitate the creation of engaging visual 
+representations \autocite[p.159]{beardTableauVersion202032021}. 
+The platform's 
+drag-and-drop interface simplifies the process 
+of building visualizations, making it accessible 
+to users with varying technical expertise levels. 
+Additionally, Tableau's "Ask Data" feature 
+allows users to pose questions in natural 
+language and receive instant visualizations 
+as answers, enhancing interactive data exploration. 
+The ability to connect multiple data sources 
+through Tableau Relationships streamlines data 
+integration, particularly beneficial in contexts 
+like library work. Furthermore, 
+accessibility improvements ensure that users 
+with disabilities can effectively engage with 
+visualizations, broadening the platform's usability.
+
+In contrast, Power BI is distinguished by its 
+user-friendly interface and seamless integration 
+with other Microsoft products, making it 
+accessible for beginners \autocite[p.1046]{sahayaPoweringSalesInsights2024}. 
+Power BI dashboards consolidate various data 
+visualizations into a singular platform, 
+simplifying the visualization of \gls{kpi}s \autocite[p.130]{khatuwalBusinessIntelligenceTools2022}. 
+It offers visualizations such as benchmarks, 
+tree charts, funnel charts, and fill charts, 
+along with connectors for \gls{saas} services like 
+GitHub, \gls{crm}, Salesforce, \gls{erp}, Sendgrid, and 
+Zendesk.
+Power BI's live connectivity to \gls{saas} services, 
+without transferring data from Microsoft 
+SQL Server to the cloud, enhances security 
+and efficiency. 
+The Power BI Designer allows users to import data, 
+model it, and publish updates, providing 
+flexibility in data management.
+
+In evaluating these platforms, 
+Tableau is optimal for larger data sets, 
+offering advanced visualization tools that 
+require tutorials and training to fully leverage 
+their potential \autocite[p.1046]{sahayaPoweringSalesInsights2024}. 
+Conversely, Power BI is more suited for small to 
+medium-sized data sets, emphasizing simplicity 
+and integration, crucial for organizations seeking 
+straightforward business intelligence solutions. 
+Both tools demonstrate the importance of 
+tailored solutions in the evolving landscape 
+of data visualization, where user accessibility 
+and integration capabilities are key factors in 
+enhancing organizational decision-making and 
+strategic planning.
+sdf
+\chapter{Methodology}
+\chapter{Assessment of Bayer's Current Position}
+\chapter{Impact of Industry Trends on Bayer}
+\chapter{Future Implications for Bayer}
+\chapter{Conclusion}

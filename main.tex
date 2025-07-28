@@ -1,0 +1,324 @@
+\documentclass[
+	12pt, %Schriftgröße
+	a4paper,
+	listof=totoc, %Inhaltsverzeichniseinträge für Listen (z.B. Abbildungen)
+	bibliography=totoc, %Inhaltsverzeichniseinträge für Quellen
+	numbers=noenddot, %Entfernt Punkt hinter Gliederungsnummern
+	english, %Sprache
+	headseplie, %Headertrennlinie
+	%footsepline, %Footertrennlinie
+	oneside %einseitiges Druckformat %%% Unterdrücken der leeren Seite nach Titelblatt
+	]{scrbook} %Dokumentenklasse (Koma-Script)
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Set main font to Times
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{babel} 
+\usepackage{url}
+\usepackage{xurl} %URLs in der Bibliographie
+\usepackage{graphicx} %Bilder einfügen
+\usepackage{caption}
+\captionsetup{justification=raggedright, singlelinecheck=false}
+
+%\usepackage{pdfpages} %PDF einfügen
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[right]{eurosym} %Euro-Zeichen
+\usepackage{amssymb}
+\usepackage{csquotes} % Required by biblatex
+\usepackage[backend=biber, style=bath, sorting=ynt]{biblatex}
+\assignrefcontextentries[]{*}
+
+% \usepackage[backend=biber, bibstyle=biblatex-bath] {biblatex}
+\addbibresource{citations.bib} %Bibliographie-Datei
+\DefineBibliographyStrings{english}{%
+  urlseen = {Accessed},
+}
+
+\DeclareCiteCommand{\citeyear}
+    {}
+    {\bibhyperref{\printfield{year}}}
+    {\multicitedelim}
+    {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\citeyearpar}
+    {}
+    {\mkbibparens{\bibhyperref{\printfield{year}}}{\usebibmacro{postnote}}}
+    {\multicitedelim}
+    {}
+
+\usepackage{tocloft} % Inhaltsverzeichnis anpassen
+\usepackage[utf8]{inputenc} % Eingabe-Encoding
+% Redeclare section commands to set tocindent to 0pt
+\RedeclareSectionCommand[tocindent=0pt]{chapter}
+\RedeclareSectionCommand[tocindent=0pt]{section}
+\RedeclareSectionCommand[tocindent=0pt]{subsection}
+\RedeclareSectionCommand[tocindent=0pt]{subsubsection}
+\RedeclareSectionCommand[tocindent=0pt]{paragraph}
+\RedeclareSectionCommand[tocindent=0pt]{subparagraph}
+
+% You might also want to adjust numwidth if needed:
+% \RedeclareSectionCommand[tocnumwidth=2em]{chapter}
+% \RedeclareSectionCommand[tocnumwidth=2em]{section}
+
+\usepackage{setspace} % Zeilenabstand
+\usepackage[ 
+   colorlinks,        % Links ohne Umrandungen in zu wählender Farbe 
+   linkcolor=black,   % Farbe interner Verweise 
+   filecolor=black,   % Farbe externer Verweise 
+   citecolor=black,   % Farbe von Zitaten 
+   urlcolor=black	  % Farbe von Links
+   ]{hyperref} %Verlinkungen
+\urlstyle{rm}
+\usepackage[figure]{hypcap}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all header and footer fields
+\fancyhead[C]{\thepage} % Puts the page number in the center of the header
+\renewcommand{\headrulewidth}{0pt} % Removes the horizontal line in the header (optional)
+\RedeclareSectionCommand[style=section]{chapter} 
+
+% Redefine the 'plain' style for pages that automatically use it (like first pages of chapters/sections)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+\usepackage{blindtext} % Lorem-Ipsum-Plugin
+\usepackage[acronym, nonumberlist, ]{glossaries} %% use after hyperref %Glossar-Paket laden
+\setglossarystyle{long}
+\renewenvironment{theglossary}%
+ {\begin{longtable}[l]{lp{\glsdescwidth}}}%
+ {\end{longtable}}
+ 
+%\usepackage[
+	%nonumberlist, %keine Seitenzahlen anzeigen
+	%acronym,      %ein Abkürzungsverzeichnis erstellen
+	%toc,          %Einträge im Inhaltsverzeichnis
+	%section      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+	%]
+%{glossaries}
+
+\usepackage{listings,xcolor} %Codeanzeige
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\useunder{\uline}{\ul}{}
+
+\usepackage{array}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{booktabs}
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\definecolor{dkgreen}{rgb}{0,.6,0}
+\definecolor{dkblue}{rgb}{0,0,.6}
+\definecolor{dkyellow}{cmyk}{0,0,.8,.3}
+
+\lstset{
+    numbers=left, 
+    numberstyle=\tiny, 
+    numbersep=5pt,
+    breaklines=true,
+    frame=single,
+    escapeinside={(*@}{@*)}, %nicht anzuzeigende Ausdrücke, z.B. für Labels
+    language=sh,
+    basicstyle=\ttfamily\fontsize{10}{12}\selectfont,
+    keywordstyle    = \color{dkblue},
+    stringstyle     = \color{red},
+    identifierstyle = \color{dkgreen},
+    commentstyle    = \color{gray},
+    emph            =[1]{php},
+    emphstyle       =[1]\color{black},
+    emph            =[2]{if,and,or,else},
+    emphstyle       =[2]\color{dkyellow}
+    } 
+
+  % Set the chapter title font size to 17pt
+\setkomafont{chapter}{\LARGE}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Sonderformatierung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Seitenabstände definieren
+\geometry{verbose,tmargin=3cm,bmargin=2cm,lmargin=2.1cm,rmargin=3cm} 
+
+% Hurenkinder und Schusterjungen verhindern (Ja, das heißt wirklich so!!!)
+\clubpenalty = 10000 \widowpenalty = 10000 \displaywidowpenalty = 10000 
+
+\newcommand{\footfigref}[1]{\footnote{Abb. \ref{#1} auf Seite \pageref{#1}}}
+
+
+
+% Vertikaler Abstand zwischen Ende Textblock - Ende Fußzeile --> Abstand der Seitenzahl von Rand erhöhen 
+\setlength{\footskip}{10mm}
+
+% Abstand vor/nach Überschriften verändern
+
+\RedeclareSectionCommand[%
+    beforeskip=0.5\baselineskip,
+    afterskip=0.5\baselineskip
+]{chapter}
+
+\RedeclareSectionCommand[%
+    beforeskip=0.5\baselineskip,
+    afterskip=0.5\baselineskip
+]{section}
+
+\RedeclareSectionCommand[%
+    beforeskip=0.1\baselineskip,
+    afterskip=0.1\baselineskip
+]{subsection}
+
+\RedeclareSectionCommand[%
+    beforeskip=0.01\baselineskip,
+    %%afterskip=0.2\baselineskip
+]{paragraph}
+
+\setlength{\abovecaptionskip}{4pt}  % 1pc=12pt 
+\setlength{\belowcaptionskip}{0pt}
+%\setlength{\textfloatsep}{4pt}
+\setlength{\intextsep}{1pc}
+
+%% Verkleinerung der Textgröße unter Abbildungen
+\addtokomafont{caption}{\small}
+
+% Den Punkt am Ende der Glossareinträge deaktivieren
+\renewcommand*{\glspostdescription}{}
+
+%Glossar-Befehle anschalten
+%\makeglossaries
+
+% sorgt dafür, dass bei Leerzeile die Einrückung verhindert und stattdessen eine Leerzeile eingefügt wird % erspart bigskips und erhöht die Lesbarkeit im LaTeX-Text 
+\KOMAoptions{parskip=full*}
+
+% % ändert Titelschriftart in Serifen-Normalschriftart
+\addtokomafont{disposition}{\rmfamily} 
+
+\makenoidxglossaries
+
+\loadglsentries{glossar.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Textbausteine
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Student Name
+\newcommand{\studentlastname}{Rohling}
+\newcommand{\studentfirstname}{Riccardo}
+%%%%%%%%%%%% Typ der Arbeit
+\newcommand{\type}{Seminar Paper}
+%%%%%%%%%%%% Thema
+\newcommand{\topic}{The Future of Business Intelligence at Bayer: Trends in Dashboard Technology and Their Implications.}
+%%%%%%%%%%%% Untertitel
+\newcommand{\subtopic}{-}
+%%%%%%%%%%%% Course
+\newcommand{\course}{International Program}
+%%%%%%%%%%%% Company
+\newcommand{\company}{Bayer AG}
+%%%%%%%%%%%% Supervisor HWR
+\newcommand{\supervisorhwr}{Prof. Dr. Christian Bleis}
+%%%%%%%%%%%% Intake
+\newcommand{\intake}{2023}
+%%%%%%%%%%%% Semester
+\newcommand{\semester}{Summer Semester 2025}
+
+%%%%%%%%%%%% Rund um den Sperrvermerk
+\newcommand{\titleSperrvermerk}{STATEMENT OF CONFIDENTIALITY}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>>>>>>>
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>>>>>>>
+% Metadaten für das PDF
+\hypersetup{%
+  pdftitle={\topic},
+  pdfsubject={\subtopic},
+  pdfauthor={\studentfirstname~\studentlastname},
+  pdfkeywords={\type, \topic, \subtopic, \course, \company, \supervisorhwr, \intake, \semester},
+}
+\begin{document} 
+
+% \setcounter{maxnames}{3} % Setzt die maximale Anzahl der Autoren in der Bibliographie
+
+% falsche Default-Silbentrennung überschreiben
+\include{./hyphenation.tex}
+
+% Statement of Confidentiality
+\input{00_statement_of_confidentiality.tex}
+
+% Front Page
+\newpage
+\input{./01_frontpage.tex}
+
+\onehalfspacing % anderthalbfacher Zeilenabstand
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Dokumenteninhalt START
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\pagenumbering{Roman} % römische Seitenzahlen
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Inhaltsverzeichnis, Tabellen, Abbildungen, etc.
+\newpage
+\tableofcontents{}
+
+% Glossar und Akronyme
+\newpage
+\addcontentsline{toc}{chapter}{Akronyms}
+\textnormal{\printnoidxglossaries}
+
+% Abbildungsverzeichnis
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% Tabellenverzeichnis
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+\clearpage
+
+%% arabische Seitenzahlen
+\pagenumbering{arabic}
+
+
+%main text
+\input{./02_maintext.tex}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Quellen
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%Literaturverzeichnis
+%\addtocontents{toc}{\protect\vspace*{\baselineskip}}
+% \nocite{*}
+%% \bibliographystyle{alpha} %% tu es nicht, niemals, das ist eklig, nicht einkommentieren
+% \setcounter{maxnames}{999}
+\newpage
+\newrefcontext[sorting=nyt]
+\chapter{Reference List}
+\vspace*{-2\baselineskip} % Abstand zum Titel verringern
+\textnormal{\printbibliography[heading=none]}
+
+%Appendix
+\newpage
+\input{./04_appendix.tex}
+
+%Statement of Academic Integrity
+\newpage
+\input{./05_statementofacademicintegrity.tex}
+
+
+\end{document}
+

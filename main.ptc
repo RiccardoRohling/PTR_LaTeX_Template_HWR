@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Inhaltsverzeichnis}{II}{Doc-Start}%
+\contentsline {chapter}{\nonumberline List of Figures}{III}{chapter*.2}%
+\contentsline {chapter}{\nonumberline List of Tables}{IV}{chapter*.3}%
+\contentsline {chapter}{Glossar und Akronyme}{V}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}CHAPTER 1}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}SECTION 1}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {A}Anhang}{2}{appendix.A}%
+\ttl@starttoc {appendix@1}
+\contentsline {section}{\numberline {A.1}Appendix A:}{2}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Appendix B:}{2}{section.A.2}%
+\ttl@stoptoc {appendix@1}
+\contentsline {chapter}{Ehrenwörtliche Erklärung}{3}{chapter*.4}%
+\contentsfinish 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

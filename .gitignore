@@ -1,0 +1,56 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.glo
+*.gls
+*.glg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc*
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+
+# Intermediate files
+*.dvi
+*.ps
+*.svg
+*.xdv
+
+# Temporary files
+*.tmp
+*.bak
+*.bkp
+*~
+
+# Files created by TeXShop (Mac)
+*.texpadtmp
+.texpadtmp/
+
+# Files created by Kile (Linux)
+*.backup
+
+# Files created by LyX
+*.lyx~
+*.lyx.backup
+
+# Specific editor and system files
+._*
+.DS_Store
+Thumbs.db
