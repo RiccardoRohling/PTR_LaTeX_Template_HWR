@@ -26,6 +26,9 @@
 *.toc
 *.vrb
 *.xdy
+*.bcf
+*.run.xml
+
 
 # Intermediate files
 *.dvi
