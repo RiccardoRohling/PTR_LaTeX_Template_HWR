@@ -34,6 +34,12 @@
   urlseen = {Accessed},
 }
 
+\DeclareCiteCommand{\citeauthor}
+    {}
+    {\bibhyperref{\printnames{labelname}}}
+    {\multicitedelim}
+    {}
+
 \DeclareCiteCommand{\citeyear}
     {}
     {\bibhyperref{\printfield{year}}}
@@ -42,11 +48,91 @@
 
 \DeclareCiteCommand{\citeyearpar}
     {}
-    {\mkbibparens{\bibhyperref{\printfield{year}}}{\usebibmacro{postnote}}}
+    {\mkbibparens{\bibhyperref{\printfield{year}, \usebibmacro{postnote}}}}
     {\multicitedelim}
     {}
 
-\usepackage{tocloft} % Inhaltsverzeichnis anpassen
+\DeclareCiteCommand{\citeyearparnopage}
+    {}
+    {\mkbibparens{\bibhyperref{\printfield{year}}}}
+    {\multicitedelim}
+    {}
+
+\DeclareCiteCommand{\citeauthoryearpar}
+    {}
+    {\bibhyperref{\printnames{labelname}\space\mkbibparens{\printfield{year}, \usebibmacro{postnote}}}}
+    {\multicitedelim}
+    {}
+
+\DeclareCiteCommand{\citeauthoryearparnopage}
+    {}
+    {\bibhyperref{\printnames{labelname}\space\mkbibparens{\printfield{year}}}}
+    {\multicitedelim}
+    {}
+
+
+% \usepackage{tocloft} % Inhaltsverzeichnis anpassen
+
+% Add minitoc setup (adapted from your working MWE)
+% \ProvidesFile{mtc-fko.tex}%
+% \usepackage[tight]{minitoc}
+% \setlength{\mtcindent}{0pt}
+% \mtcsetfont{minitoc}{section}{\sectfont\small}
+% \mtcsettitlefont{minitoc}{\sectfont\large}
+% \mtcsettitle{minitoc}{Contents} % Changed from "Inhalt" to "Contents" for English
+
+% \setlength{\mtcindent}{24pt} 
+% \renewcommand{\mtcoffset}{0pt} 
+% \mtcsetoffset{minitoc}{0pt} 
+% \setlength{\mtcskipamount}{\bigskipamount}
+
+% \setcounter{minitocdepth}{2}
+% \renewcommand{\mtcfont}{\small\rmfamily\upshape\mdseries} 
+% \renewcommand{\mtcSfont}{\small\rmfamily\upshape\bfseries}
+
+% % Save original section command
+% \let\originalsection\section
+% \let\originalsubsection\subsection
+
+% % Flag for appendix mode
+% \newif\ifappendixmode
+% \appendixmodefalse
+
+% % Redefine section to conditionally add to TOC
+% \renewcommand{\section}[1]{%
+%   \ifappendixmode
+%     % In appendix: add to local TOC only, not main TOC
+%     \originalsection*{#1}%
+%     \addcontentsline{appendix}{section}{#1}%
+%   \else
+%     % Normal behavior: add to main TOC
+%     \originalsection{#1}%
+%   \fi
+% }
+
+% \renewcommand{\subsection}[1]{%
+%   \ifappendixmode
+%     % In appendix: add to local TOC only
+%     \originalsubsection*{#1}%
+%     \addcontentsline{appendix}{subsection}{#1}%
+%   \else
+%     % Normal behavior
+%     \originalsubsection{#1}%
+%   \fi
+% }
+
+
+% \usepackage{etoolbox}
+% % Flag to control TOC behavior
+% \newbool{appendixmode}
+
+% % Patch section command to conditionally add to TOC
+% \pretocmd{\section}{%
+%   \ifbool{appendixmode}{%
+%     \addcontentsline{toc}{section}{}% Add empty entry or skip entirely
+%   }{}%
+% }{}{}
+
 \usepackage[utf8]{inputenc} % Eingabe-Encoding
 % Redeclare section commands to set tocindent to 0pt
 \RedeclareSectionCommand[tocindent=0pt]{chapter}
@@ -61,17 +147,12 @@
 % \RedeclareSectionCommand[tocnumwidth=2em]{section}
 
 \usepackage{setspace} % Zeilenabstand
-\usepackage[ 
-   colorlinks,        % Links ohne Umrandungen in zu wählender Farbe 
-   linkcolor=black,   % Farbe interner Verweise 
-   filecolor=black,   % Farbe externer Verweise 
-   citecolor=black,   % Farbe von Zitaten 
-   urlcolor=black	  % Farbe von Links
-   ]{hyperref} %Verlinkungen
-\urlstyle{rm}
-\usepackage[figure]{hypcap}
+
+
+
 \usepackage{enumitem}
 \usepackage{fancyhdr}
+\usepackage{fancyref}
 \pagestyle{fancy}
 \fancyhf{} % Clears all header and footer fields
 \fancyhead[C]{\thepage} % Puts the page number in the center of the header
@@ -86,19 +167,30 @@
 }
 
 \usepackage{blindtext} % Lorem-Ipsum-Plugin
+
+
+% \usepackage[
+% 	nonumberlist, %keine Seitenzahlen anzeigen
+% 	acronym,      %ein Abkürzungsverzeichnis erstellen
+% 	toc,          %Einträge im Inhaltsverzeichnis
+% 	section      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+% 	]
+% {glossaries}
+\usepackage[ 
+   colorlinks,        % Links ohne Umrandungen in zu wählender Farbe 
+   linkcolor=black,   % Farbe interner Verweise 
+   filecolor=black,   % Farbe externer Verweise 
+   citecolor=black,   % Farbe von Zitaten 
+   urlcolor=black	  % Farbe von Links
+   ]{hyperref} %Verlinkungen
+\urlstyle{rm}
+\usepackage[figure]{hypcap}
 \usepackage[acronym, nonumberlist, ]{glossaries} %% use after hyperref %Glossar-Paket laden
 \setglossarystyle{long}
 \renewenvironment{theglossary}%
  {\begin{longtable}[l]{lp{\glsdescwidth}}}%
  {\end{longtable}}
  
-%\usepackage[
-	%nonumberlist, %keine Seitenzahlen anzeigen
-	%acronym,      %ein Abkürzungsverzeichnis erstellen
-	%toc,          %Einträge im Inhaltsverzeichnis
-	%section      %im Inhaltsverzeichnis auf section-Ebene erscheinen
-	%]
-%{glossaries}
 
 \usepackage{listings,xcolor} %Codeanzeige
 \usepackage[normalem]{ulem}
@@ -139,7 +231,6 @@
   % Set the chapter title font size to 17pt
 \setkomafont{chapter}{\LARGE}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%% Sonderformatierung
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -151,7 +242,6 @@
 \clubpenalty = 10000 \widowpenalty = 10000 \displaywidowpenalty = 10000 
 
 \newcommand{\footfigref}[1]{\footnote{Abb. \ref{#1} auf Seite \pageref{#1}}}
-
 
 
 % Vertikaler Abstand zwischen Ende Textblock - Ende Fußzeile --> Abstand der Seitenzahl von Rand erhöhen 
@@ -202,7 +292,6 @@
 \makenoidxglossaries
 
 \loadglsentries{glossar.tex}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%% Textbausteine
@@ -273,19 +362,17 @@
 \tableofcontents{}
 
 % Glossar und Akronyme
-\newpage
 \addcontentsline{toc}{chapter}{Akronyms}
 \textnormal{\printnoidxglossaries}
 
 % Abbildungsverzeichnis
 \newpage
 \listoffigures
-\addcontentsline{toc}{chapter}{List of Figures}
+
 
 % Tabellenverzeichnis
 \newpage
 \listoftables
-\addcontentsline{toc}{chapter}{List of Tables}
 
 \clearpage
 
