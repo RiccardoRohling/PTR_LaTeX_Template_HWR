@@ -1,39 +1,46 @@
-\documentclass[
-	12pt, %Schriftgröße
-	a4paper,
-	listof=totoc, %Inhaltsverzeichniseinträge für Listen (z.B. Abbildungen)
-	bibliography=totoc, %Inhaltsverzeichniseinträge für Quellen
-	numbers=noenddot, %Entfernt Punkt hinter Gliederungsnummern
-	english, %Sprache
-	headseplie, %Headertrennlinie
-	%footsepline, %Footertrennlinie
-	oneside %einseitiges Druckformat %%% Unterdrücken der leeren Seite nach Titelblatt
-	]{scrbook} %Dokumentenklasse (Koma-Script)
-\usepackage[T1]{fontenc}
-\usepackage{mathptmx} % Set main font to Times
-\usepackage{float}
-\usepackage[utf8]{inputenc}
-\usepackage{babel} 
-\usepackage{url}
-\usepackage{xurl} %URLs in der Bibliographie
-\usepackage{graphicx} %Bilder einfügen
-\usepackage{caption}
-\captionsetup{justification=raggedright, singlelinecheck=false}
+% This is the main LaTeX file for the document.
+% It sets up the document class, loads necessary packages, defines custom commands, and includes the content from other files.
 
-%\usepackage{pdfpages} %PDF einfügen
-\usepackage[a4paper, margin=1in]{geometry}
-\usepackage[right]{eurosym} %Euro-Zeichen
-\usepackage{amssymb}
-\usepackage{csquotes} % Required by biblatex
-\usepackage[backend=biber, style=bath, sorting=ynt]{biblatex}
+% The document class is 'scrbook' from Koma-Script, which is a versatile class for creating books.
+\documentclass[
+	12pt, % Sets the font size to 12pt.
+	a4paper, % Sets the paper size to A4.
+	listof=totoc, % Adds the list of figures and tables to the table of contents.
+	bibliography=totoc, % Adds the bibliography to the table of contents.
+	numbers=noenddot, % Removes the dot after section numbers.
+	english, % Sets the main language to English.
+	headseplie, % Adds a line under the header.
+	%footsepline, % Adds a line above the footer (commented out).
+	oneside % Sets the document to single-sided format.
+	]{scrbook}
+
+% Font and encoding packages
+\usepackage[T1]{fontenc} % Specifies the font encoding.
+\usepackage{mathptmx} % Sets the main font to Times New Roman.
+\usepackage[utf8]{inputenc} % Sets the input encoding to UTF-8.
+\usepackage{babel} % Provides language-specific typographic rules.
+
+% Utility packages
+\usepackage{float} % Improves the interface for defining floating objects such as figures and tables.
+\usepackage{url} % Provides support for URL typesetting.
+\usepackage{xurl} % Provides more robust URL typesetting.
+\usepackage{graphicx} % Allows the inclusion of images.
+\usepackage{caption} % Provides customization options for captions in floating environments.
+\captionsetup{justification=raggedright, singlelinecheck=false} % Configures caption alignment.
+\usepackage[a4paper, margin=1in]{geometry} % Sets the page margins.
+\usepackage[right]{eurosym} % Provides the Euro symbol.
+\usepackage{amssymb} % Provides various mathematical symbols.
+\usepackage{csquotes} % Provides context-sensitive quotation facilities.
+
+% Bibliography setup using biblatex
+\usepackage[backend=biber, style=bath, sorting=ynt]{biblatex} % Configures biblatex for bibliography management.
+\addbibresource{citations.bib} % Specifies the bibliography file.
+\DefineBibliographyStrings{english}{%
+  urlseen = {Accessed}, % Customizes the 'urlseen' string.
+}
 \assignrefcontextentries[]{*}
 
-% \usepackage[backend=biber, bibstyle=biblatex-bath] {biblatex}
-\addbibresource{citations.bib} %Bibliographie-Datei
-\DefineBibliographyStrings{english}{%
-  urlseen = {Accessed},
-}
-
+% Custom cite commands for biblatex
 \DeclareCiteCommand{\citeauthor}
     {}
     {\bibhyperref{\printnames{labelname}}}
@@ -70,71 +77,7 @@
     {\multicitedelim}
     {}
 
-
-% \usepackage{tocloft} % Inhaltsverzeichnis anpassen
-
-% Add minitoc setup (adapted from your working MWE)
-% \ProvidesFile{mtc-fko.tex}%
-% \usepackage[tight]{minitoc}
-% \setlength{\mtcindent}{0pt}
-% \mtcsetfont{minitoc}{section}{\sectfont\small}
-% \mtcsettitlefont{minitoc}{\sectfont\large}
-% \mtcsettitle{minitoc}{Contents} % Changed from "Inhalt" to "Contents" for English
-
-% \setlength{\mtcindent}{24pt} 
-% \renewcommand{\mtcoffset}{0pt} 
-% \mtcsetoffset{minitoc}{0pt} 
-% \setlength{\mtcskipamount}{\bigskipamount}
-
-% \setcounter{minitocdepth}{2}
-% \renewcommand{\mtcfont}{\small\rmfamily\upshape\mdseries} 
-% \renewcommand{\mtcSfont}{\small\rmfamily\upshape\bfseries}
-
-% % Save original section command
-% \let\originalsection\section
-% \let\originalsubsection\subsection
-
-% % Flag for appendix mode
-% \newif\ifappendixmode
-% \appendixmodefalse
-
-% % Redefine section to conditionally add to TOC
-% \renewcommand{\section}[1]{%
-%   \ifappendixmode
-%     % In appendix: add to local TOC only, not main TOC
-%     \originalsection*{#1}%
-%     \addcontentsline{appendix}{section}{#1}%
-%   \else
-%     % Normal behavior: add to main TOC
-%     \originalsection{#1}%
-%   \fi
-% }
-
-% \renewcommand{\subsection}[1]{%
-%   \ifappendixmode
-%     % In appendix: add to local TOC only
-%     \originalsubsection*{#1}%
-%     \addcontentsline{appendix}{subsection}{#1}%
-%   \else
-%     % Normal behavior
-%     \originalsubsection{#1}%
-%   \fi
-% }
-
-
-% \usepackage{etoolbox}
-% % Flag to control TOC behavior
-% \newbool{appendixmode}
-
-% % Patch section command to conditionally add to TOC
-% \pretocmd{\section}{%
-%   \ifbool{appendixmode}{%
-%     \addcontentsline{toc}{section}{}% Add empty entry or skip entirely
-%   }{}%
-% }{}{}
-
-\usepackage[utf8]{inputenc} % Eingabe-Encoding
-% Redeclare section commands to set tocindent to 0pt
+% Table of contents indentation settings
 \RedeclareSectionCommand[tocindent=0pt]{chapter}
 \RedeclareSectionCommand[tocindent=0pt]{section}
 \RedeclareSectionCommand[tocindent=0pt]{subsection}
@@ -142,80 +85,71 @@
 \RedeclareSectionCommand[tocindent=0pt]{paragraph}
 \RedeclareSectionCommand[tocindent=0pt]{subparagraph}
 
-% You might also want to adjust numwidth if needed:
-% \RedeclareSectionCommand[tocnumwidth=2em]{chapter}
-% \RedeclareSectionCommand[tocnumwidth=2em]{section}
-
-\usepackage{setspace} % Zeilenabstand
-
-
-
-\usepackage{enumitem}
-\usepackage{fancyhdr}
-\usepackage{fancyref}
-\pagestyle{fancy}
-\fancyhf{} % Clears all header and footer fields
-\fancyhead[C]{\thepage} % Puts the page number in the center of the header
-\renewcommand{\headrulewidth}{0pt} % Removes the horizontal line in the header (optional)
+% Spacing and layout packages
+\usepackage{setspace} % Provides commands for setting line spacing.
+\usepackage{enumitem} % Provides customization for list environments.
+\usepackage{fancyhdr} % Provides extensive control over headers and footers.
+\pagestyle{fancy} % Sets the page style to 'fancy'.
+\fancyhf{} % Clears all header and footer fields.
+\fancyhead[C]{\thepage} % Puts the page number in the center of the header.
+\renewcommand{\headrulewidth}{0pt} % Removes the horizontal line in the header.
 \RedeclareSectionCommand[style=section]{chapter} 
 
-% Redefine the 'plain' style for pages that automatically use it (like first pages of chapters/sections)
+% Redefine the 'plain' page style for chapter beginnings
 \fancypagestyle{plain}{%
   \fancyhf{}%
   \fancyhead[C]{\thepage}%
   \renewcommand{\headrulewidth}{0pt}%
 }
 
-\usepackage{blindtext} % Lorem-Ipsum-Plugin
+\usepackage{blindtext} % Provides dummy text for testing.
 
-
-% \usepackage[
-% 	nonumberlist, %keine Seitenzahlen anzeigen
-% 	acronym,      %ein Abkürzungsverzeichnis erstellen
-% 	toc,          %Einträge im Inhaltsverzeichnis
-% 	section      %im Inhaltsverzeichnis auf section-Ebene erscheinen
-% 	]
-% {glossaries}
+% Hyperlinking setup
 \usepackage[ 
-   colorlinks,        % Links ohne Umrandungen in zu wählender Farbe 
-   linkcolor=black,   % Farbe interner Verweise 
-   filecolor=black,   % Farbe externer Verweise 
-   citecolor=black,   % Farbe von Zitaten 
-   urlcolor=black	  % Farbe von Links
-   ]{hyperref} %Verlinkungen
-\urlstyle{rm}
-\usepackage[figure]{hypcap}
-\usepackage[acronym, nonumberlist, ]{glossaries} %% use after hyperref %Glossar-Paket laden
-\setglossarystyle{long}
+   colorlinks,        % Colors links instead of using boxes.
+   linkcolor=black,   % Sets the color of internal links.
+   filecolor=black,   % Sets the color of file links.
+   citecolor=black,   % Sets the color of citation links.
+   urlcolor=black	  % Sets the color of URL links.
+   ]{hyperref} % Enables cross-referencing within the document.
+\urlstyle{rm} % Sets the URL style to roman font.
+\usepackage[figure]{hypcap} % Corrects hyperlink anchors for figures.
+
+% Glossary setup
+\usepackage[acronym, nonumberlist, ]{glossaries} % Enables glossary and acronym management.
+\setglossarystyle{long} % Sets the glossary style to 'long'.
 \renewenvironment{theglossary}%
  {\begin{longtable}[l]{lp{\glsdescwidth}}}%
  {\end{longtable}}
- 
 
-\usepackage{listings,xcolor} %Codeanzeige
-\usepackage[normalem]{ulem}
-\usepackage{amsmath}
+% Code listing setup
+\usepackage{listings,xcolor} % Provides support for including code snippets.
+\usepackage[normalem]{ulem} % Provides underlining capabilities.
+\usepackage{amsmath} % Provides advanced mathematical typesetting.
 \useunder{\uline}{\ul}{}
 
-\usepackage{array}
-\usepackage{geometry}
-\geometry{a4paper, margin=1in}
-\usepackage{booktabs}
-\usepackage{chngcntr}
-\counterwithout{figure}{chapter}
-\counterwithout{table}{chapter}
+% Table and figure packages
+\usepackage{array} % Provides extended capabilities for arrays and tables.
+\usepackage{geometry} % Manages page dimensions.
+\geometry{a4paper, margin=1in} % Sets A4 paper with 1-inch margins.
+\usepackage{booktabs} % Provides high-quality table formatting.
+\usepackage{chngcntr} % Allows for changing counter associations.
+\counterwithout{figure}{chapter} % Makes figure numbering independent of chapters.
+\counterwithout{table}{chapter} % Makes table numbering independent of chapters.
 
+% Custom colors for code listings
 \definecolor{dkgreen}{rgb}{0,.6,0}
 \definecolor{dkblue}{rgb}{0,0,.6}
 \definecolor{dkyellow}{cmyk}{0,0,.8,.3}
 
+% Configuration for code listings
 \lstset{
     numbers=left, 
     numberstyle=\tiny, 
     numbersep=5pt,
     breaklines=true,
     frame=single,
-    escapeinside={(*@}{@*)}, %nicht anzuzeigende Ausdrücke, z.B. für Labels
+    escapeinside={(*@}{@*)},
     language=sh,
     basicstyle=\ttfamily\fontsize{10}{12}\selectfont,
     keywordstyle    = \color{dkblue},
@@ -228,27 +162,26 @@
     emphstyle       =[2]\color{dkyellow}
     } 
 
-  % Set the chapter title font size to 17pt
+% Font size for chapter titles
 \setkomafont{chapter}{\LARGE}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%% Sonderformatierung
+%%%%%%%%%%% Custom Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Seitenabstände definieren
+% Page margin settings
 \geometry{verbose,tmargin=3cm,bmargin=2cm,lmargin=2.1cm,rmargin=3cm} 
 
-% Hurenkinder und Schusterjungen verhindern (Ja, das heißt wirklich so!!!)
+% Prevents widow and club lines
 \clubpenalty = 10000 \widowpenalty = 10000 \displaywidowpenalty = 10000 
 
+% Custom command for referencing figures in footnotes
 \newcommand{\footfigref}[1]{\footnote{Abb. \ref{#1} auf Seite \pageref{#1}}}
 
-
-% Vertikaler Abstand zwischen Ende Textblock - Ende Fußzeile --> Abstand der Seitenzahl von Rand erhöhen 
+% Footer skip length
 \setlength{\footskip}{10mm}
 
-% Abstand vor/nach Überschriften verändern
-
+% Spacing adjustments for section titles
 \RedeclareSectionCommand[%
     beforeskip=0.5\baselineskip,
     afterskip=0.5\baselineskip
@@ -266,149 +199,119 @@
 
 \RedeclareSectionCommand[%
     beforeskip=0.01\baselineskip,
-    %%afterskip=0.2\baselineskip
-]{paragraph}
+    ]{paragraph}
 
-\setlength{\abovecaptionskip}{4pt}  % 1pc=12pt 
+% Caption spacing adjustments
+\setlength{\abovecaptionskip}{4pt}
 \setlength{\belowcaptionskip}{0pt}
-%\setlength{\textfloatsep}{4pt}
 \setlength{\intextsep}{1pc}
 
-%% Verkleinerung der Textgröße unter Abbildungen
+% Caption font size
 \addtokomafont{caption}{\small}
 
-% Den Punkt am Ende der Glossareinträge deaktivieren
+% Removes the dot at the end of glossary entries
 \renewcommand*{\glspostdescription}{}
 
-%Glossar-Befehle anschalten
-%\makeglossaries
-
-% sorgt dafür, dass bei Leerzeile die Einrückung verhindert und stattdessen eine Leerzeile eingefügt wird % erspart bigskips und erhöht die Lesbarkeit im LaTeX-Text 
+% Koma-Script option for paragraph spacing
 \KOMAoptions{parskip=full*}
 
-% % ändert Titelschriftart in Serifen-Normalschriftart
+% Font style for disposition elements
 \addtokomafont{disposition}{\rmfamily} 
 
+% Initializes glossaries
 \makenoidxglossaries
 
+% Loads glossary entries from an external file
 \loadglsentries{glossar.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%% Textbausteine
+%%%%%%%%%%% Custom Commands for Document Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% Student Name
 \newcommand{\studentlastname}{-}
 \newcommand{\studentfirstname}{-}
-%%%%%%%%%%%% Typ der Arbeit
 \newcommand{\type}{-}
-%%%%%%%%%%%% Thema
 \newcommand{\topic}{-}
-%%%%%%%%%%%% Untertitel
 \newcommand{\subtopic}{-}
-%%%%%%%%%%%% Course
 \newcommand{\course}{-}
-%%%%%%%%%%%% Company
 \newcommand{\company}{-}
-%%%%%%%%%%%% Supervisor HWR
 \newcommand{\supervisorhwr}{-}
-%%%%%%%%%%%% Intake
 \newcommand{\intake}{-}
-%%%%%%%%%%%% Semester
 \newcommand{\semester}{-}
-%%%%%%%%%%%% Date of submission
 \newcommand{\dateofsubmission}{-}
-%%%%%%%%%%%% Place of submission
 \newcommand{\placeofsubmission}{-}
-%%%%%%%%%%%% Rund um den Sperrvermerk
 \newcommand{\titleSperrvermerk}{STATEMENT OF CONFIDENTIALITY}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>>>>>>>
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>>>>>>>
-% Metadaten für das PDF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PDF Metadata
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hypersetup{%
   pdftitle={\topic},
   pdfsubject={\subtopic},
   pdfauthor={\studentfirstname~\studentlastname},
   pdfkeywords={\type, \topic, \subtopic, \course, \company, \supervisorhwr, \intake, \semester},
 }
-\begin{document} 
 
-% \setcounter{maxnames}{3} % Setzt die maximale Anzahl der Autoren in der Bibliographie
+\begin{document}
 
-% falsche Default-Silbentrennung überschreiben
+% Includes custom hyphenation patterns
 \include{./hyphenation.tex}
 
-% Statement of Confidentiality
+% Includes the statement of confidentiality
 \input{00_statement_of_confidentiality.tex}
 
-% Front Page
+% Includes the front page
 \newpage
 \input{./01_frontpage.tex}
 
-\onehalfspacing % anderthalbfacher Zeilenabstand
+% Sets line spacing to one and a half
+\onehalfspacing
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%% Dokumenteninhalt START
+%%%%%%%%%%% Main Document Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Sets page numbering to Roman numerals for front matter
+\pagenumbering{Roman}
 
-
-\pagenumbering{Roman} % römische Seitenzahlen
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%% Inhaltsverzeichnis, Tabellen, Abbildungen, etc.
+% Includes the table of contents
 \newpage
 \tableofcontents{}
 
-% Glossar und Akronyme
+% Includes the glossary and acronyms
 \addcontentsline{toc}{chapter}{Akronyms}
 \textnormal{\printnoidxglossaries}
 
-% Abbildungsverzeichnis
+% Includes the list of figures
 \newpage
 \listoffigures
 
-
-% Tabellenverzeichnis
+% Includes the list of tables
 \newpage
 \listoftables
 
 \clearpage
 
-%% arabische Seitenzahlen
+% Sets page numbering to Arabic numerals for the main body
 \pagenumbering{arabic}
 
-
-%main text
+% Includes the main text
 \input{./02_maintext.tex}
 
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-% Quellen
+% Bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%Literaturverzeichnis
-%\addtocontents{toc}{\protect\vspace*{\baselineskip}}
-% \nocite{*}
-%% \bibliographystyle{alpha} %% tu es nicht, niemals, das ist eklig, nicht einkommentieren
-% \setcounter{maxnames}{999}
 \newpage
 \newrefcontext[sorting=nyt]
 \chapter{Reference List}
-\vspace*{-2\baselineskip} % Abstand zum Titel verringern
+\vspace*{-2\baselineskip}
 \textnormal{\printbibliography[heading=none]}
 
-%Appendix
+% Includes the appendix
 \newpage
 \input{./04_appendix.tex}
 
-%Statement of Academic Integrity
+% Includes the statement of academic integrity
 \newpage
 \input{./05_statementofacademicintegrity.tex}
 
-
 \end{document}
-

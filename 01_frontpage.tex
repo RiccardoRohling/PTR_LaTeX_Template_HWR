@@ -1,25 +1,30 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%>>>>>>>
-%%%%%%%%%%% Titelblatt
+% This file defines the layout and content of the front page.
 
-%% Anordnung und Aussehen von Titel und Untertitel
+% The page style is set to 'empty' to remove headers and footers.
 \thispagestyle{empty}
 
+% The title and other front page elements are centered.
 \begin{center}
+	% The main topic of the document is displayed in a huge font size.
 	\huge\topic
 
-	% \large\subtopic % Falls kein Subtopic, auskommentieren
+	% The subtopic is commented out but can be enabled if needed.
+	% \large\subtopic
 	
 	\vspace{1.5cm}
 	\normalsize{
+	% The type of the work (e.g., Bachelor Thesis) is displayed.
 	\type
 
 	\vspace{1.5cm}
+	% The date of submission is displayed.
 	presented on \dateofsubmission 
 
 	\vspace{1.5cm}
 	to
 
 	\vspace{1.5cm}
+	% The name of the university is displayed.
 	Hochschule für Wirtschaft und Recht Berlin
 }
 
@@ -27,7 +32,9 @@
 
 \vspace{1.5cm}
 
+% The array stretch is increased to add more space between table rows.
 \renewcommand{\arraystretch}{2}
+% A table is used to display student and project information.
 \begin{tabular}{l l}
 	Name: & \studentfirstname~\studentlastname \tabularnewline
 	Course: & \course \tabularnewline
@@ -36,5 +43,3 @@
 	Company: & \company \tabularnewline
 	Supervisor HWR: & \supervisorhwr \tabularnewline
 \end{tabular}
-
-	
