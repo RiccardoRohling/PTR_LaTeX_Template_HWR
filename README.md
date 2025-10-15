@@ -2,13 +2,9 @@
 
 This repository contains a LaTeX template for academic papers, tailored for students at the Hochschule für Wirtschaft und Recht Berlin (HWR).
 
------
-
 ## Project Overview
 
 This template provides a structured and pre-configured setup for writing academic papers, including a title page, statement of confidentiality, main text, appendix, and bibliography. It uses the Koma-Script bundle and is configured with common packages for academic writing.
-
------
 
 ## File Structure
 
@@ -25,9 +21,7 @@ The project is organized into several files, each serving a specific purpose:
 - `citations.bib`: The bibliography file where all references should be stored in BibTeX format.
 - `README.md`: This file, providing an overview of the project.
 
------
-
-## Recommended Software Setup 🧑‍💻
+## Recommended Software Setup
 
 For the best experience on Windows, the following setup is recommended:
 
@@ -40,9 +34,7 @@ For the best experience on Windows, the following setup is recommended:
   * **Perl**: Some LaTeX scripts and packages (like the one used for the glossary) require a Perl interpreter. **Strawberry Perl** is a good option for Windows.
       * [Download Strawberry Perl](http://strawberryperl.com/)
 
------
-
-## Reference Management with Zotero 📚
+## Reference Management with Zotero
 
 Manually managing your `citations.bib` file can be tedious. A highly recommended workflow is to use **Zotero**, a free and open-source reference management tool, along with the **Better BibTeX for Zotero** extension. This setup allows you to automatically keep your `citations.bib` file synchronized with your Zotero library.
 
@@ -59,8 +51,6 @@ Manually managing your `citations.bib` file can be tedious. A highly recommended
       * Save the file directly as `citations.bib` inside your project folder, overwriting the existing file.
 
 Now, whenever you add, remove, or modify a reference in that Zotero collection, your `citations.bib` file will be automatically updated in the background. This streamlines the citation process and ensures your bibliography is always current.
-
------
 
 ## How to Compile
 
