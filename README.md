@@ -47,7 +47,7 @@ Manually managing your `citations.bib` file can be tedious. A highly recommended
 3.  **Enable Auto-Export**:
       * In Zotero, select the collection of references you want to export for your paper.
       * Right-click the collection and choose `Export Collection...`.
-      * Select `Better BibTeX` as the format. **Crucially, check the "Keep updated" box.**
+      * Select `Better BibLaTeX` as the format. **Crucially, check the "Keep updated" box.**
       * Save the file directly as `citations.bib` inside your project folder, overwriting the existing file.
 
 Now, whenever you add, remove, or modify a reference in that Zotero collection, your `citations.bib` file will be automatically updated in the background. This streamlines the citation process and ensures your bibliography is always current.
