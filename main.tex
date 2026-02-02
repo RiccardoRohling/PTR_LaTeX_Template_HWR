@@ -116,11 +116,16 @@
 \usepackage[figure]{hypcap} % Corrects hyperlink anchors for figures.
 
 % Glossary setup
-\usepackage[acronym, nonumberlist, ]{glossaries} % Enables glossary and acronym management.
+\usepackage[acronym, nonumberlist, nogroupskip]{glossaries} % Enables glossary and acronym management.
+\usepackage{longtable} % Required for long glossary style
 \setglossarystyle{long} % Sets the glossary style to 'long'.
+\setlength{\glsdescwidth}{0.8\textwidth} % Sets description column width
 \renewenvironment{theglossary}%
- {\begin{longtable}[l]{lp{\glsdescwidth}}}%
- {\end{longtable}}
+  {\begin{longtable}[l]{@{}lp{\glsdescwidth}@{}}}%
+  {\end{longtable}}%
+\renewcommand{\glossaryentrynumbers}[1]{} % Remove page numbers
+\setlength{\LTpre}{0pt} % Space before longtable
+\setlength{\LTpost}{0pt} % Space after longtable
 
 % Code listing setup
 \usepackage{listings,xcolor} % Provides support for including code snippets.
@@ -278,8 +283,13 @@
 \tableofcontents{}
 
 % Includes the glossary and acronyms
-\addcontentsline{toc}{chapter}{Akronyms}
-\textnormal{\printnoidxglossaries}
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Acronyms}
+{%
+\renewcommand{\arraystretch}{1.5}% Zeilenabstand im Glossar auf 1.5
+\printnoidxglossary[type=acronym,title={Acronyms},style=long]%
+}
 
 % Includes the list of figures
 \newpage
